@@ -1,0 +1,38 @@
+{
+  "10520": {
+    "id": 10520,
+    "name": "QUEENS — розкладний стіл для офісу 90×50 см з ламінованою стільницею | ESTACA",
+    "parent": 10519,
+    "type": "variation",
+    "variation": "Кольори: Білий + Білий",
+    "permalink": "https://www.estaca.com.ua/stoly/stoly-dlya-konferenczij/kopiyarozkladnyj-stil-dlya-ofisu-900h600-z-laminovanoyu-stilnyczeyu/?attribute_pa_kolory=bilyj-bilyj",
+    "sku": "132-60",
+    "short_description": "",
+    "description": "",
+    "on_sale": false,
+    "prices": {"price": "430000", "regular_price": "430000", "sale_price": "430000", "price_range": null, "currency_code": "UAH", "currency_minor_unit": 2},
+    "images": [{"id": 10414, "src": "https://www.estaca.com.ua/wp-content/uploads/2026/07/1_optimized-63.webp"}],
+    "categories": [], "tags": [], "brands": [], "attributes": [], "variations": [],
+    "is_purchasable": true, "is_in_stock": true, "is_on_backorder": false
+  },
+  "10521": {
+    "id": 10521, "name": "QUEENS — розкладний стіл для офісу 90×50 см з ламінованою стільницею | ESTACA",
+    "parent": 10519, "type": "variation", "variation": "Кольори: Сірий + Графіт",
+    "permalink": "https://www.estaca.com.ua/stoly/stoly-dlya-konferenczij/kopiyarozkladnyj-stil-dlya-ofisu-900h600-z-laminovanoyu-stilnyczeyu/?attribute_pa_kolory=siryj-grafit",
+    "sku": "132-60", "short_description": "", "description": "", "on_sale": false,
+    "prices": {"price": "430000", "regular_price": "430000", "sale_price": "430000", "price_range": null, "currency_code": "UAH", "currency_minor_unit": 2},
+    "images": [{"id": 10415, "src": "https://www.estaca.com.ua/wp-content/uploads/2026/07/1_optimized-64.webp"}],
+    "categories": [], "tags": [], "brands": [], "attributes": [], "variations": [],
+    "is_purchasable": true, "is_in_stock": true, "is_on_backorder": false
+  },
+  "10522": {
+    "id": 10522, "name": "QUEENS — розкладний стіл для офісу 90×50 см з ламінованою стільницею | ESTACA",
+    "parent": 10519, "type": "variation", "variation": "Кольори: Чорний + Дуб Крафт золотий",
+    "permalink": "https://www.estaca.com.ua/stoly/stoly-dlya-konferenczij/kopiyarozkladnyj-stil-dlya-ofisu-900h600-z-laminovanoyu-stilnyczeyu/?attribute_pa_kolory=chornyj-dub-kraft-zolotyj",
+    "sku": "132-60", "short_description": "", "description": "", "on_sale": false,
+    "prices": {"price": "430000", "regular_price": "430000", "sale_price": "430000", "price_range": null, "currency_code": "UAH", "currency_minor_unit": 2},
+    "images": [{"id": 10416, "src": "https://www.estaca.com.ua/wp-content/uploads/2026/07/1_optimized-65.webp"}],
+    "categories": [], "tags": [], "brands": [], "attributes": [], "variations": [],
+    "is_purchasable": true, "is_in_stock": true, "is_on_backorder": false
+  }
+}

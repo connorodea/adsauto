@@ -1,0 +1,36 @@
+[
+  {
+    "id": 10519,
+    "name": "QUEENS — розкладний стіл для офісу 90×50 см з ламінованою стільницею | ESTACA",
+    "parent": 0,
+    "type": "variable",
+    "variation": "",
+    "permalink": "https://www.estaca.com.ua/stoly/stoly-dlya-konferenczij/kopiyarozkladnyj-stil-dlya-ofisu-900h600-z-laminovanoyu-stilnyczeyu/",
+    "sku": "132-60",
+    "short_description": "<p>Розкладний стіл для офісу 100 см складається й зручно зберігається.</p>",
+    "description": "<p>Розкладний стіл для офісу 90 см — найменший у складаній серії.</p>\n<h3>Технічні характеристики</h3>\n<ul>\n<li>розгорнуті розміри — 900 × 500 × 750 мм;</li>\n<li>стільниця — прямокутна, з ламінованого ДСП;</li>\n</ul>",
+    "on_sale": false,
+    "prices": {"price": "430000", "regular_price": "430000", "sale_price": "430000", "price_range": null, "currency_code": "UAH", "currency_minor_unit": 2},
+    "images": [{"id": 10408, "src": "https://www.estaca.com.ua/wp-content/uploads/2026/06/1_optimized-15.webp"}],
+    "categories": [{"id": 320, "name": "Розкладні мобільні столи", "slug": "stoly-dlya-konferenczij", "link": "https://www.estaca.com.ua/stoly/stoly-dlya-konferenczij/"}],
+    "brands": [{"id": 499, "name": "ESTACA", "slug": "estaca"}],
+    "tags": [],
+    "attributes": [
+      {"id": 3, "name": "Ширина, мм", "taxonomy": "pa_shyryna-mm", "has_variations": false, "terms": [{"id": 197, "name": "1000", "slug": "1000"}]},
+      {"id": 4, "name": "Глибина, мм", "taxonomy": "pa_glybyna-mm", "has_variations": false, "terms": [{"id": 258, "name": "500", "slug": "500"}]},
+      {"id": 5, "name": "Висота, мм", "taxonomy": "pa_vysota-mm", "has_variations": false, "terms": [{"id": 177, "name": "750", "slug": "750"}]},
+      {"id": 20, "name": "Кольори", "taxonomy": "pa_kolory", "has_variations": true, "terms": [{"id": 325, "name": "Білий + Білий", "slug": "bilyj-bilyj"}, {"id": 328, "name": "Сірий + Графіт", "slug": "siryj-grafit"}, {"id": 326, "name": "Чорний + Дуб Крафт золотий", "slug": "chornyj-dub-kraft-zolotyj"}]},
+      {"id": 8, "name": "Матеріал стільниці", "taxonomy": "pa_material-stilnyczi", "has_variations": false, "terms": [{"id": 517, "name": "Ламіноване ДСП", "slug": "laminovane-dsp"}]},
+      {"id": 10, "name": "Виробник", "taxonomy": "pa_vyrobnyk", "has_variations": false, "terms": [{"id": 182, "name": "ESTACA", "slug": "estaca"}]}
+    ],
+    "variations": [
+      {"id": 10520, "attributes": [{"name": "Кольори", "value": "bilyj-bilyj"}]},
+      {"id": 10521, "attributes": [{"name": "Кольори", "value": "siryj-grafit"}]},
+      {"id": 10522, "attributes": [{"name": "Кольори", "value": "chornyj-dub-kraft-zolotyj"}]}
+    ],
+    "has_options": true,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false
+  }
+]
