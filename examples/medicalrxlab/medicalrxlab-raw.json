@@ -1,0 +1,6471 @@
+{
+ "source": "medicalrxlab",
+ "endpoint": "https://medicalrxlab.com/api/catalog",
+ "fetched_at": "2026-10-12T23:25:17.239350+00:00",
+ "sha256": "0802caec977b8cf0fb37b761d73baf0aefc9eb17f56ab50459ab633b3c54f3b0",
+ "payload": {
+  "mode": "live",
+  "paymentMode": "live",
+  "checkoutEnabled": true,
+  "paymentProviders": [
+   "venmo"
+  ],
+  "shippingCountries": [
+   "US"
+  ],
+  "shippingAmount": 0,
+  "products": [
+   {
+    "id": "bg-001",
+    "handle": "5-amino-1mq",
+    "title": "5-amino-1MQ",
+    "subtitle": "5-amino-1MQ",
+    "description": "5-amino-1MQ (5-amino-1-methylquinolinium) is a small-molecule quinolinium salt, not a peptide. PubChem CID 950107 (the cation); formula C10H11N2+; molecular weight 159.21 g/mol for the cation. It is used in enzyme and cell assays as an inhibitor of nicotinamide N-methyltransferase (NNMT). Research areas: NNMT enzymology, NAD+ and methylation metabolism in cell models. Supplied as a lyophilized powder for laboratory research use only. Not for human or veterinary use.",
+    "category": "Compounds",
+    "amount": 20.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-001.webp",
+     "altText": "5-amino-1MQ vial illustration",
+     "box": "/product-images/5-amino-1mq-box.webp",
+     "boxByDose": {
+      "bg-001-02": "/product-images/5-amino-1mq-10-mg-box.webp",
+      "bg-001-03": "/product-images/5-amino-1mq-20-mg-box.webp",
+      "bg-001-01": "/product-images/5-amino-1mq-5-mg-box.webp",
+      "bg-001-04": "/product-images/5-amino-1mq-50-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-001-01",
+      "sku": "MRX-5A1MQ-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 167.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-001-01"
+     },
+     {
+      "id": "bg-001-01-1v",
+      "sku": "MRX-5A1MQ-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 20.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-001-01"
+     },
+     {
+      "id": "bg-001-02",
+      "sku": "MRX-5A1MQ-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 230,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-001-02"
+     },
+     {
+      "id": "bg-001-02-1v",
+      "sku": "MRX-5A1MQ-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 55,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-001-02"
+     },
+     {
+      "id": "bg-001-03",
+      "sku": "MRX-5A1MQ-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 390,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-001-03"
+     },
+     {
+      "id": "bg-001-03-1v",
+      "sku": "MRX-5A1MQ-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-001-03"
+     },
+     {
+      "id": "bg-001-04",
+      "sku": "MRX-5A1MQ-50MG-BX10",
+      "title": "50mg · 10-vial kit",
+      "amount": 578.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-001-04"
+     },
+     {
+      "id": "bg-001-04-1v",
+      "sku": "MRX-5A1MQ-50MG-1V",
+      "title": "50mg · 1 vial",
+      "amount": 72.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-001-04"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "FD-2606180226",
+      "product": "5-amino-1MQ",
+      "productUrl": "/products/5-amino-1mq",
+      "dose": "50mg",
+      "testDate": "2026-06-21",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.89,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2606180226"
+     }
+    ]
+   },
+   {
+    "id": "bg-007",
+    "handle": "adipotide",
+    "title": "Adipotide",
+    "subtitle": "Adipotide",
+    "description": "Adipotide is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 60,
+    "currency": "USD",
+    "size": "2mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-007.webp",
+     "altText": "Adipotide vial illustration",
+     "box": "/product-images/adipotide-box.webp",
+     "boxByDose": {
+      "bg-007-01": "/product-images/adipotide-2-mg-box.webp",
+      "bg-007-02": "/product-images/adipotide-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-007-01",
+      "sku": "MRX-ADIPO-2MG-BX10",
+      "title": "2mg · 10-vial kit",
+      "amount": 280,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-007-01"
+     },
+     {
+      "id": "bg-007-01-1v",
+      "sku": "MRX-ADIPO-2MG-1V",
+      "title": "2mg · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-007-01"
+     },
+     {
+      "id": "bg-007-02",
+      "sku": "MRX-ADIPO-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 410,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-007-02"
+     },
+     {
+      "id": "bg-007-02-1v",
+      "sku": "MRX-ADIPO-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-007-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-008",
+    "handle": "ahk-cu",
+    "title": "AHK-CU",
+    "subtitle": "AHK-CU",
+    "description": "AHK-CU is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 18.99,
+    "currency": "USD",
+    "size": "50mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-008.webp",
+     "altText": "AHK-CU vial illustration",
+     "box": "/product-images/ahk-cu-box.webp",
+     "boxByDose": {
+      "bg-008-02": "/product-images/ahk-cu-100-mg-box.webp",
+      "bg-008-01": "/product-images/ahk-cu-50-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-008-01",
+      "sku": "MRX-AHKCU-50MG-BX10",
+      "title": "50mg · 10-vial kit",
+      "amount": 151.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-008-01"
+     },
+     {
+      "id": "bg-008-01-1v",
+      "sku": "MRX-AHKCU-50MG-1V",
+      "title": "50mg · 1 vial",
+      "amount": 18.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-008-01"
+     },
+     {
+      "id": "bg-008-02",
+      "sku": "MRX-AHKCU-100MG-BX10",
+      "title": "100mg · 10-vial kit",
+      "amount": 230,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-008-02"
+     },
+     {
+      "id": "bg-008-02-1v",
+      "sku": "MRX-AHKCU-100MG-1V",
+      "title": "100mg · 1 vial",
+      "amount": 55,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-008-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-011",
+    "handle": "aod-9604",
+    "title": "AOD-9604",
+    "subtitle": "AOD-9604",
+    "description": "AOD-9604 is listed in our sourcing catalog with 3 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 31.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-011.webp",
+     "altText": "AOD-9604 vial illustration",
+     "box": "/product-images/aod-9604-box.webp",
+     "boxByDose": {
+      "bg-011-03": "/product-images/aod-9604-10-mg-box.webp",
+      "bg-011-01": "/product-images/aod-9604-2-mg-box.webp",
+      "bg-011-02": "/product-images/aod-9604-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-011-01",
+      "sku": "MRX-AOD9604-2MG-BX10",
+      "title": "2mg · 10-vial kit",
+      "amount": 230,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-011-01"
+     },
+     {
+      "id": "bg-011-01-1v",
+      "sku": "MRX-AOD9604-2MG-1V",
+      "title": "2mg · 1 vial",
+      "amount": 55,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-011-01"
+     },
+     {
+      "id": "bg-011-02",
+      "sku": "MRX-AOD9604-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 255.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-011-02"
+     },
+     {
+      "id": "bg-011-02-1v",
+      "sku": "MRX-AOD9604-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 31.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-011-02"
+     },
+     {
+      "id": "bg-011-03",
+      "sku": "MRX-AOD9604-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 495.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-011-03"
+     },
+     {
+      "id": "bg-011-03-1v",
+      "sku": "MRX-AOD9604-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 61.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-011-03"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "FD-2607080037",
+      "product": "AOD-9604",
+      "productUrl": "/products/aod-9604",
+      "dose": "5mg",
+      "testDate": "2026-07-10",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.56,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2607080037"
+     }
+    ]
+   },
+   {
+    "id": "bg-012",
+    "handle": "ara-290",
+    "title": "ARA-290",
+    "subtitle": "ARA-290",
+    "description": "ARA-290 is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 60,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-012.webp",
+     "altText": "ARA-290 vial illustration",
+     "box": "/product-images/ara-290-box.webp",
+     "boxByDose": {
+      "bg-012-01": "/product-images/ara-290-10-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-012-01",
+      "sku": "MRX-ARA290-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 270,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-012-01"
+     },
+     {
+      "id": "bg-012-01-1v",
+      "sku": "MRX-ARA290-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-012-01"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "ARA-061426-10",
+      "product": "ARA-290",
+      "productUrl": "/products/ara-290",
+      "dose": "10mg",
+      "testDate": "2026-07-31",
+      "lab": "SteriGenix",
+      "purity": 99.08,
+      "method": "HPLC / LC-MS",
+      "documentUrl": "/api/verify/document?lot=ARA-061426-10"
+     }
+    ]
+   },
+   {
+    "id": "bg-013",
+    "handle": "bac-water",
+    "title": "BAC Water",
+    "subtitle": "BAC Water",
+    "description": "BAC Water is bacteriostatic water: sterile water containing 0.9% benzyl alcohol as a bacteriostatic preservative. It is a laboratory supply used to reconstitute lyophilized peptides. Available in 3 mL and 10 mL vials. Supplied for laboratory research use only. Not for human or veterinary use.",
+    "category": "Supplies",
+    "amount": 14.99,
+    "currency": "USD",
+    "size": "3mL · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-013.webp",
+     "altText": "BAC Water vial illustration",
+     "box": "/product-images/bac-water-box.webp",
+     "boxByDose": {
+      "bg-013-02": "/product-images/bac-water-10-ml-box.webp",
+      "bg-013-01": "/product-images/bac-water-3-ml-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-013-01",
+      "sku": "MRX-BACWATER-3ML-BX10",
+      "title": "3mL · 10-vial kit",
+      "amount": 119.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-013-01"
+     },
+     {
+      "id": "bg-013-01-1v",
+      "sku": "MRX-BACWATER-3ML-1V",
+      "title": "3mL · 1 vial",
+      "amount": 14.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-013-01"
+     },
+     {
+      "id": "bg-013-02",
+      "sku": "MRX-BACWATER-10ML-BX10",
+      "title": "10mL · 10-vial kit",
+      "amount": 127.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-013-02"
+     },
+     {
+      "id": "bg-013-02-1v",
+      "sku": "MRX-BACWATER-10ML-1V",
+      "title": "10mL · 1 vial",
+      "amount": 15.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-013-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-014",
+    "handle": "bpc-157",
+    "title": "BPC-157",
+    "subtitle": "BPC-157",
+    "description": "BPC-157 is listed in our sourcing catalog with 3 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 27.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-014.webp",
+     "altText": "BPC-157 vial illustration",
+     "box": "/product-images/bpc-157-box.webp",
+     "boxByDose": {
+      "bg-014-02": "/product-images/bpc-157-10-mg-box.webp",
+      "bg-014-03": "/product-images/bpc-157-20-mg-box.webp",
+      "bg-014-01": "/product-images/bpc-157-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-014-01",
+      "sku": "MRX-BPC157-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 223.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-014-01"
+     },
+     {
+      "id": "bg-014-01-1v",
+      "sku": "MRX-BPC157-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 27.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-014-01"
+     },
+     {
+      "id": "bg-014-02",
+      "sku": "MRX-BPC157-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 360.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-014-02"
+     },
+     {
+      "id": "bg-014-02-1v",
+      "sku": "MRX-BPC157-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 45.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-014-02"
+     },
+     {
+      "id": "bg-014-03",
+      "sku": "MRX-BPC157-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 320,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-014-03"
+     },
+     {
+      "id": "bg-014-03-1v",
+      "sku": "MRX-BPC157-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 65,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-014-03"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-015",
+    "handle": "bpc-157-plus-tb-500-blend-wolverine",
+    "title": "BPC-157 + TB-500 Blend (Wolverine)",
+    "subtitle": "BPC-157 + TB-500 Blend (Wolverine)",
+    "description": "BPC-157 + TB-500 Blend (Wolverine) is listed in our sourcing catalog with 3 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Blends",
+    "amount": 45.99,
+    "currency": "USD",
+    "size": "10mg total · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-015.webp",
+     "altText": "BPC-157 + TB-500 Blend (Wolverine) vial illustration",
+     "box": "/product-images/bpc-157-plus-tb-500-blend-wolverine-box.webp",
+     "boxByDose": {
+      "bg-015-01": "/product-images/bpc-157-plus-tb-500-blend-wolverine-10-mg-total-box.webp",
+      "bg-015-02": "/product-images/bpc-157-plus-tb-500-blend-wolverine-20-mg-total-box.webp",
+      "bg-015-03": "/product-images/bpc-157-plus-tb-500-blend-wolverine-30-mg-total-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-015-01",
+      "sku": "MRX-BPCTB-BLEND-10MG-BX10",
+      "title": "10mg total · 10-vial kit",
+      "amount": 367.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-015-01"
+     },
+     {
+      "id": "bg-015-01-1v",
+      "sku": "MRX-BPCTB-BLEND-10MG-1V",
+      "title": "10mg total · 1 vial",
+      "amount": 45.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-015-01"
+     },
+     {
+      "id": "bg-015-02",
+      "sku": "MRX-BPCTB-BLEND-20MG-BX10",
+      "title": "20mg total · 10-vial kit",
+      "amount": 727.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-015-02"
+     },
+     {
+      "id": "bg-015-02-1v",
+      "sku": "MRX-BPCTB-BLEND-20MG-1V",
+      "title": "20mg total · 1 vial",
+      "amount": 90.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-015-02"
+     },
+     {
+      "id": "bg-015-03",
+      "sku": "MRX-BPCTB-BLEND-30MG-BX10",
+      "title": "30mg total · 10-vial kit",
+      "amount": 715,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-015-03"
+     },
+     {
+      "id": "bg-015-03-1v",
+      "sku": "MRX-BPCTB-BLEND-30MG-1V",
+      "title": "30mg total · 1 vial",
+      "amount": 105,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-015-03"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "FD-2608031122",
+      "product": "BPC-157 + TB-500 Blend (Wolverine)",
+      "productUrl": "/products/bpc-157-plus-tb-500-blend-wolverine",
+      "dose": "20mg total",
+      "testDate": "2026-08-07",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.72,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2608031122"
+     },
+     {
+      "lot": "FD-2607060264",
+      "product": "BPC-157 + TB-500 Blend (Wolverine)",
+      "productUrl": "/products/bpc-157-plus-tb-500-blend-wolverine",
+      "dose": "10mg total",
+      "testDate": "2026-07-08",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.65,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2607060264"
+     }
+    ]
+   },
+   {
+    "id": "bg-018",
+    "handle": "cardiogen",
+    "title": "Cardiogen",
+    "subtitle": "Cardiogen",
+    "description": "Cardiogen is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 75,
+    "currency": "USD",
+    "size": "20mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-018.webp",
+     "altText": "Cardiogen vial illustration",
+     "box": "/product-images/cardiogen-box.webp",
+     "boxByDose": {
+      "bg-018-01": "/product-images/cardiogen-20-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-018-01",
+      "sku": "MRX-CARDIOGEN-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 390,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-018-01"
+     },
+     {
+      "id": "bg-018-01-1v",
+      "sku": "MRX-CARDIOGEN-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-018-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-019",
+    "handle": "cartalax",
+    "title": "Cartalax",
+    "subtitle": "Cartalax",
+    "description": "Cartalax is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 60,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-019.webp",
+     "altText": "Cartalax vial illustration",
+     "box": "/product-images/cartalax-box.webp",
+     "boxByDose": {
+      "bg-019-01": "/product-images/cartalax-10-mg-box.webp",
+      "bg-019-02": "/product-images/cartalax-20-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-019-01",
+      "sku": "MRX-CARTALAX-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 270,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-019-01"
+     },
+     {
+      "id": "bg-019-01-1v",
+      "sku": "MRX-CARTALAX-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-019-01"
+     },
+     {
+      "id": "bg-019-02",
+      "sku": "MRX-CARTALAX-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 310,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-019-02"
+     },
+     {
+      "id": "bg-019-02-1v",
+      "sku": "MRX-CARTALAX-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 65,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-019-02"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "FD-2609170318",
+      "product": "Cartalax",
+      "productUrl": "/products/cartalax",
+      "dose": "20mg",
+      "testDate": "2026-09-19",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.36,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2609170318"
+     },
+     {
+      "lot": "FD-2609170317",
+      "product": "Cartalax",
+      "productUrl": "/products/cartalax",
+      "dose": "20mg",
+      "testDate": "2026-09-19",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.32,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2609170317"
+     }
+    ]
+   },
+   {
+    "id": "bg-021",
+    "handle": "chonluten",
+    "title": "Chonluten",
+    "subtitle": "Chonluten",
+    "description": "Chonluten is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 75,
+    "currency": "USD",
+    "size": "20mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-021.webp",
+     "altText": "Chonluten vial illustration",
+     "box": "/product-images/chonluten-box.webp",
+     "boxByDose": {
+      "bg-021-01": "/product-images/chonluten-20-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-021-01",
+      "sku": "MRX-CHONLUTEN-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 390,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-021-01"
+     },
+     {
+      "id": "bg-021-01-1v",
+      "sku": "MRX-CHONLUTEN-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-021-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-022",
+    "handle": "cjc-1295-no-dac",
+    "title": "CJC-1295 (No DAC)",
+    "subtitle": "CJC-1295 (No DAC)",
+    "description": "CJC-1295 (No DAC) is listed in our sourcing catalog with 3 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 34.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-022.webp",
+     "altText": "CJC-1295 (No DAC) vial illustration",
+     "box": "/product-images/cjc-1295-no-dac-box.webp",
+     "boxByDose": {
+      "bg-022-03": "/product-images/cjc-1295-no-dac-10-mg-box.webp",
+      "bg-022-01": "/product-images/cjc-1295-no-dac-2-mg-box.webp",
+      "bg-022-02": "/product-images/cjc-1295-no-dac-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-022-01",
+      "sku": "MRX-CJC1295NODAC-2MG-BX10",
+      "title": "2mg · 10-vial kit",
+      "amount": 210,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-022-01"
+     },
+     {
+      "id": "bg-022-01-1v",
+      "sku": "MRX-CJC1295NODAC-2MG-1V",
+      "title": "2mg · 1 vial",
+      "amount": 55,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-022-01"
+     },
+     {
+      "id": "bg-022-02",
+      "sku": "MRX-CJC1295NODAC-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 279.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-022-02"
+     },
+     {
+      "id": "bg-022-02-1v",
+      "sku": "MRX-CJC1295NODAC-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 34.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-022-02"
+     },
+     {
+      "id": "bg-022-03",
+      "sku": "MRX-CJC1295NODAC-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 463.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-022-03"
+     },
+     {
+      "id": "bg-022-03-1v",
+      "sku": "MRX-CJC1295NODAC-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 57.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-022-03"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-023",
+    "handle": "cjc-1295-no-dac-plus-ipamorelin",
+    "title": "CJC-1295 (No DAC) + Ipamorelin",
+    "subtitle": "CJC-1295 (No DAC) + Ipamorelin",
+    "description": "CJC-1295 (No DAC) + Ipamorelin is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Blends",
+    "amount": 68.99,
+    "currency": "USD",
+    "size": "10mg total · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-023.webp",
+     "altText": "CJC-1295 (No DAC) + Ipamorelin vial illustration",
+     "box": "/product-images/cjc-1295-no-dac-plus-ipamorelin-box.webp",
+     "boxByDose": {
+      "bg-023-01": "/product-images/cjc-1295-no-dac-plus-ipamorelin-10-mg-total-box.webp",
+      "bg-023-02": "/product-images/cjc-1295-no-dac-plus-ipamorelin-20-mg-total-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-023-01",
+      "sku": "MRX-CJCIPAM-BLEND-10MG-BX10",
+      "title": "10mg total · 10-vial kit",
+      "amount": 551.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-023-01"
+     },
+     {
+      "id": "bg-023-01-1v",
+      "sku": "MRX-CJCIPAM-BLEND-10MG-1V",
+      "title": "10mg total · 1 vial",
+      "amount": 68.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-023-01"
+     },
+     {
+      "id": "bg-023-02",
+      "sku": "MRX-CJCIPAM-BLEND-20MG-BX10",
+      "title": "20mg total · 10-vial kit",
+      "amount": 480,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-023-02"
+     },
+     {
+      "id": "bg-023-02-1v",
+      "sku": "MRX-CJCIPAM-BLEND-20MG-1V",
+      "title": "20mg total · 1 vial",
+      "amount": 80,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-023-02"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "CHR-40328",
+      "product": "CJC-1295 (No DAC) + Ipamorelin",
+      "productUrl": "/products/cjc-1295-no-dac-plus-ipamorelin",
+      "dose": "20mg total",
+      "testDate": "2026-09-29",
+      "lab": "Chromate",
+      "purity": 99.132,
+      "method": "RP-HPLC-UV",
+      "documentUrl": "/api/verify/document?lot=CHR-40328"
+     },
+     {
+      "lot": "CP-072526-10",
+      "product": "CJC-1295 (No DAC) + Ipamorelin",
+      "productUrl": "/products/cjc-1295-no-dac-plus-ipamorelin",
+      "dose": "10mg total",
+      "testDate": "2026-08-13",
+      "lab": "SteriGenix",
+      "purity": 99.82,
+      "method": "HPLC / LC-MS",
+      "documentUrl": "/api/verify/document?lot=CP-072526-10"
+     },
+     {
+      "lot": "FD-2607200578",
+      "product": "CJC-1295 (No DAC) + Ipamorelin",
+      "productUrl": "/products/cjc-1295-no-dac-plus-ipamorelin",
+      "dose": "10mg total",
+      "testDate": "2026-07-22",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.88,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2607200578"
+     }
+    ]
+   },
+   {
+    "id": "bg-024",
+    "handle": "cjc-1295-with-dac",
+    "title": "CJC-1295 (With DAC)",
+    "subtitle": "CJC-1295 (With DAC)",
+    "description": "CJC-1295 (With DAC) is listed in our sourcing catalog with 3 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 45.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-024.webp",
+     "altText": "CJC-1295 (With DAC) vial illustration",
+     "box": "/product-images/cjc-1295-with-dac-box.webp",
+     "boxByDose": {
+      "bg-024-03": "/product-images/cjc-1295-with-dac-10-mg-box.webp",
+      "bg-024-01": "/product-images/cjc-1295-with-dac-2-mg-box.webp",
+      "bg-024-02": "/product-images/cjc-1295-with-dac-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-024-01",
+      "sku": "MRX-CJC1295DAC-2MG-BX10",
+      "title": "2mg · 10-vial kit",
+      "amount": 270,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-024-01"
+     },
+     {
+      "id": "bg-024-01-1v",
+      "sku": "MRX-CJC1295DAC-2MG-1V",
+      "title": "2mg · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-024-01"
+     },
+     {
+      "id": "bg-024-02",
+      "sku": "MRX-CJC1295DAC-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 369.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-024-02"
+     },
+     {
+      "id": "bg-024-02-1v",
+      "sku": "MRX-CJC1295DAC-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 45.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-024-02"
+     },
+     {
+      "id": "bg-024-03",
+      "sku": "MRX-CJC1295DAC-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 695,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-024-03"
+     },
+     {
+      "id": "bg-024-03-1v",
+      "sku": "MRX-CJC1295DAC-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 105,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-024-03"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-025",
+    "handle": "cortagen",
+    "title": "Cortagen",
+    "subtitle": "Cortagen",
+    "description": "Cortagen is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 70,
+    "currency": "USD",
+    "size": "20mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-025.webp",
+     "altText": "Cortagen vial illustration",
+     "box": "/product-images/cortagen-box.webp",
+     "boxByDose": {
+      "bg-025-01": "/product-images/cortagen-20-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-025-01",
+      "sku": "MRX-CORTAGEN-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 345,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-025-01"
+     },
+     {
+      "id": "bg-025-01-1v",
+      "sku": "MRX-CORTAGEN-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 70,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-025-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-028",
+    "handle": "dsip",
+    "title": "DSIP",
+    "subtitle": "DSIP",
+    "description": "DSIP is listed in our sourcing catalog with 3 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 55,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-028.webp",
+     "altText": "DSIP vial illustration",
+     "box": "/product-images/dsip-box.webp",
+     "boxByDose": {
+      "bg-028-02": "/product-images/dsip-10-mg-box.webp",
+      "bg-028-03": "/product-images/dsip-15-mg-box.webp",
+      "bg-028-01": "/product-images/dsip-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-028-01",
+      "sku": "MRX-DSIP-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 220,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-028-01"
+     },
+     {
+      "id": "bg-028-01-1v",
+      "sku": "MRX-DSIP-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 55,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-028-01"
+     },
+     {
+      "id": "bg-028-02",
+      "sku": "MRX-DSIP-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 250,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-028-02"
+     },
+     {
+      "id": "bg-028-02-1v",
+      "sku": "MRX-DSIP-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-028-02"
+     },
+     {
+      "id": "bg-028-03",
+      "sku": "MRX-DSIP-15MG-BX10",
+      "title": "15mg · 10-vial kit",
+      "amount": 320,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-028-03"
+     },
+     {
+      "id": "bg-028-03-1v",
+      "sku": "MRX-DSIP-15MG-1V",
+      "title": "15mg · 1 vial",
+      "amount": 65,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-028-03"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "CHR-38877",
+      "product": "DSIP",
+      "productUrl": "/products/dsip",
+      "dose": "10mg",
+      "testDate": "2026-08-28",
+      "lab": "Chromate",
+      "purity": 98.325,
+      "method": "RP-HPLC-UV",
+      "documentUrl": "/api/verify/document?lot=CHR-38877"
+     }
+    ]
+   },
+   {
+    "id": "bg-031",
+    "handle": "epithalon",
+    "title": "Epithalon",
+    "subtitle": "Epithalon",
+    "description": "Epithalon is listed in our sourcing catalog with 3 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 21.99,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-031.webp",
+     "altText": "Epithalon vial illustration",
+     "box": "/product-images/epithalon-box.webp",
+     "boxByDose": {
+      "bg-031-01": "/product-images/epithalon-10-mg-box.webp",
+      "bg-031-02": "/product-images/epithalon-40-mg-box.webp",
+      "bg-031-03": "/product-images/epithalon-50-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-031-01",
+      "sku": "MRX-EPITHALON-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 175.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-031-01"
+     },
+     {
+      "id": "bg-031-01-1v",
+      "sku": "MRX-EPITHALON-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 21.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-031-01"
+     },
+     {
+      "id": "bg-031-02",
+      "sku": "MRX-EPITHALON-40MG-BX10",
+      "title": "40mg · 10-vial kit",
+      "amount": 430,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-031-02"
+     },
+     {
+      "id": "bg-031-02-1v",
+      "sku": "MRX-EPITHALON-40MG-1V",
+      "title": "40mg · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-031-02"
+     },
+     {
+      "id": "bg-031-03",
+      "sku": "MRX-EPITHALON-50MG-BX10",
+      "title": "50mg · 10-vial kit",
+      "amount": 871.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-031-03"
+     },
+     {
+      "id": "bg-031-03-1v",
+      "sku": "MRX-EPITHALON-50MG-1V",
+      "title": "50mg · 1 vial",
+      "amount": 108.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-031-03"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-034",
+    "handle": "foxo4",
+    "title": "FOXO4",
+    "subtitle": "FOXO4",
+    "description": "FOXO4 is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 110,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-034.webp",
+     "altText": "FOXO4 vial illustration",
+     "box": "/product-images/foxo4-box.webp",
+     "boxByDose": {
+      "bg-034-01": "/product-images/foxo4-10-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-034-01",
+      "sku": "MRX-FOXO4-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 755,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-034-01"
+     },
+     {
+      "id": "bg-034-01-1v",
+      "sku": "MRX-FOXO4-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 110,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-034-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-036",
+    "handle": "ghk-cu",
+    "title": "GHK-CU",
+    "subtitle": "GHK-CU",
+    "description": "GHK-CU is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 25.99,
+    "currency": "USD",
+    "size": "50mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-036.webp",
+     "altText": "GHK-CU vial illustration",
+     "box": "/product-images/ghk-cu-box.webp",
+     "boxByDose": {
+      "bg-036-02": "/product-images/ghk-cu-100-mg-box.webp",
+      "bg-036-01": "/product-images/ghk-cu-50-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-036-01",
+      "sku": "MRX-GHKCU-50MG-BX10",
+      "title": "50mg · 10-vial kit",
+      "amount": 207.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-036-01"
+     },
+     {
+      "id": "bg-036-01-1v",
+      "sku": "MRX-GHKCU-50MG-1V",
+      "title": "50mg · 1 vial",
+      "amount": 25.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-036-01"
+     },
+     {
+      "id": "bg-036-02",
+      "sku": "MRX-GHKCU-100MG-BX10",
+      "title": "100mg · 10-vial kit",
+      "amount": 339.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-036-02"
+     },
+     {
+      "id": "bg-036-02-1v",
+      "sku": "MRX-GHKCU-100MG-1V",
+      "title": "100mg · 1 vial",
+      "amount": 42.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-036-02"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "FD-2609100326",
+      "product": "GHK-CU",
+      "productUrl": "/products/ghk-cu",
+      "dose": "100mg",
+      "testDate": "2026-09-11",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.88,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2609100326"
+     },
+     {
+      "lot": "CHR-38988",
+      "product": "GHK-CU",
+      "productUrl": "/products/ghk-cu",
+      "dose": "50mg",
+      "testDate": "2026-08-28",
+      "lab": "Chromate",
+      "purity": 99.852,
+      "method": "RP-HPLC-UV",
+      "documentUrl": "/api/verify/document?lot=CHR-38988"
+     },
+     {
+      "lot": "CHR-38287",
+      "product": "GHK-CU",
+      "productUrl": "/products/ghk-cu",
+      "dose": "100mg",
+      "testDate": "2026-08-16",
+      "lab": "Chromate",
+      "purity": 99.734,
+      "method": "RP-HPLC-UV",
+      "documentUrl": "/api/verify/document?lot=CHR-38287"
+     },
+     {
+      "lot": "FD-2608100049",
+      "product": "GHK-CU",
+      "productUrl": "/products/ghk-cu",
+      "dose": "50mg",
+      "testDate": "2026-08-13",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.76,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2608100049"
+     }
+    ]
+   },
+   {
+    "id": "bg-037",
+    "handle": "ghk-cu-plus-kpv-plus-bpc-157-blend",
+    "title": "GHK-CU + KPV + BPC-157 Blend",
+    "subtitle": "GHK-CU + KPV + BPC-157 Blend",
+    "description": "GHK-CU + KPV + BPC-157 Blend is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Blends",
+    "amount": 70,
+    "currency": "USD",
+    "size": "110mg total · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-037.webp",
+     "altText": "GHK-CU + KPV + BPC-157 Blend vial illustration",
+     "box": "/product-images/ghk-cu-plus-kpv-plus-bpc-157-blend-box.webp",
+     "boxByDose": {
+      "bg-037-01": "/product-images/ghk-cu-plus-kpv-plus-bpc-157-blend-110-mg-total-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-037-01",
+      "sku": "MRX-GHKKPVBPC-BLEND-110MG-BX10",
+      "title": "110mg total · 10-vial kit",
+      "amount": 370,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-037-01"
+     },
+     {
+      "id": "bg-037-01-1v",
+      "sku": "MRX-GHKKPVBPC-BLEND-110MG-1V",
+      "title": "110mg total · 1 vial",
+      "amount": 70,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-037-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-038",
+    "handle": "ghrp-2",
+    "title": "GHRP-2",
+    "subtitle": "GHRP-2",
+    "description": "GHRP-2 is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 18.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-038.webp",
+     "altText": "GHRP-2 vial illustration",
+     "box": "/product-images/ghrp-2-box.webp",
+     "boxByDose": {
+      "bg-038-02": "/product-images/ghrp-2-10-mg-box.webp",
+      "bg-038-01": "/product-images/ghrp-2-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-038-01",
+      "sku": "MRX-GHRP2-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 151.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-038-01"
+     },
+     {
+      "id": "bg-038-01-1v",
+      "sku": "MRX-GHRP2-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 18.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-038-01"
+     },
+     {
+      "id": "bg-038-02",
+      "sku": "MRX-GHRP2-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 207.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-038-02"
+     },
+     {
+      "id": "bg-038-02-1v",
+      "sku": "MRX-GHRP2-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 25.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-038-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-039",
+    "handle": "ghrp-6",
+    "title": "GHRP-6",
+    "subtitle": "GHRP-6",
+    "description": "GHRP-6 is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 18.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-039.webp",
+     "altText": "GHRP-6 vial illustration",
+     "box": "/product-images/ghrp-6-box.webp",
+     "boxByDose": {
+      "bg-039-02": "/product-images/ghrp-6-10-mg-box.webp",
+      "bg-039-01": "/product-images/ghrp-6-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-039-01",
+      "sku": "MRX-GHRP6-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 151.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-039-01"
+     },
+     {
+      "id": "bg-039-01-1v",
+      "sku": "MRX-GHRP6-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 18.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-039-01"
+     },
+     {
+      "id": "bg-039-02",
+      "sku": "MRX-GHRP6-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 191.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-039-02"
+     },
+     {
+      "id": "bg-039-02-1v",
+      "sku": "MRX-GHRP6-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 23.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-039-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-040",
+    "handle": "glow-blend-bpc-157-plus-ghk-cu-plus-tb-500",
+    "title": "GLOW Blend (BPC-157 + GHK-CU + TB-500)",
+    "subtitle": "GLOW Blend (BPC-157 + GHK-CU + TB-500)",
+    "description": "GLOW Blend (BPC-157 + GHK-CU + TB-500) is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Blends",
+    "amount": 70,
+    "currency": "USD",
+    "size": "50mg total · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-040.webp",
+     "altText": "GLOW Blend (BPC-157 + GHK-CU + TB-500) vial illustration",
+     "box": "/product-images/glow-blend-bpc-157-plus-ghk-cu-plus-tb-500-box.webp",
+     "boxByDose": {
+      "bg-040-01": "/product-images/glow-blend-bpc-157-plus-ghk-cu-plus-tb-500-50-mg-total-box.webp",
+      "bg-040-02": "/product-images/glow-blend-bpc-157-plus-ghk-cu-plus-tb-500-70-mg-total-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-040-01",
+      "sku": "MRX-GLOW-BLEND-50MG-BX10",
+      "title": "50mg total · 10-vial kit",
+      "amount": 375,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-040-01"
+     },
+     {
+      "id": "bg-040-01-1v",
+      "sku": "MRX-GLOW-BLEND-50MG-1V",
+      "title": "50mg total · 1 vial",
+      "amount": 70,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-040-01"
+     },
+     {
+      "id": "bg-040-02",
+      "sku": "MRX-GLOW-BLEND-70MG-BX10",
+      "title": "70mg total · 10-vial kit",
+      "amount": 748.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-040-02"
+     },
+     {
+      "id": "bg-040-02-1v",
+      "sku": "MRX-GLOW-BLEND-70MG-1V",
+      "title": "70mg total · 1 vial",
+      "amount": 93.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-040-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-041",
+    "handle": "glutathione",
+    "title": "Glutathione",
+    "subtitle": "Glutathione",
+    "description": "Glutathione is listed in our sourcing catalog with 4 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 27.99,
+    "currency": "USD",
+    "size": "1500mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-041.webp",
+     "altText": "Glutathione vial illustration",
+     "box": "/product-images/glutathione-box.webp",
+     "boxByDose": {
+      "bg-041-03": "/product-images/glutathione-1200-mg-box.webp",
+      "bg-041-04": "/product-images/glutathione-1500-mg-box.webp",
+      "bg-041-01": "/product-images/glutathione-500-mg-box.webp",
+      "bg-041-02": "/product-images/glutathione-600-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-041-01",
+      "sku": "MRX-GLUTA-500MG-BX10",
+      "title": "500mg · 10-vial kit",
+      "amount": 250,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-041-01"
+     },
+     {
+      "id": "bg-041-01-1v",
+      "sku": "MRX-GLUTA-500MG-1V",
+      "title": "500mg · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-041-01"
+     },
+     {
+      "id": "bg-041-02",
+      "sku": "MRX-GLUTA-600MG-BX10",
+      "title": "600mg · 10-vial kit",
+      "amount": 210,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-041-02"
+     },
+     {
+      "id": "bg-041-02-1v",
+      "sku": "MRX-GLUTA-600MG-1V",
+      "title": "600mg · 1 vial",
+      "amount": 55,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-041-02"
+     },
+     {
+      "id": "bg-041-03",
+      "sku": "MRX-GLUTA-1200MG-BX10",
+      "title": "1200mg · 10-vial kit",
+      "amount": 270,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-041-03"
+     },
+     {
+      "id": "bg-041-03-1v",
+      "sku": "MRX-GLUTA-1200MG-1V",
+      "title": "1200mg · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-041-03"
+     },
+     {
+      "id": "bg-041-04",
+      "sku": "MRX-GLUTA-1500MG-BX10",
+      "title": "1500mg · 10-vial kit",
+      "amount": 223.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-041-04"
+     },
+     {
+      "id": "bg-041-04-1v",
+      "sku": "MRX-GLUTA-1500MG-1V",
+      "title": "1500mg · 1 vial",
+      "amount": 27.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-041-04"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-044",
+    "handle": "hexarelin",
+    "title": "Hexarelin",
+    "subtitle": "Hexarelin",
+    "description": "Hexarelin is listed in our sourcing catalog with 3 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 33.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-044.webp",
+     "altText": "Hexarelin vial illustration",
+     "box": "/product-images/hexarelin-box.webp",
+     "boxByDose": {
+      "bg-044-03": "/product-images/hexarelin-10-mg-box.webp",
+      "bg-044-01": "/product-images/hexarelin-2-mg-box.webp",
+      "bg-044-02": "/product-images/hexarelin-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-044-01",
+      "sku": "MRX-HEXA-2MG-BX10",
+      "title": "2mg · 10-vial kit",
+      "amount": 240,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-044-01"
+     },
+     {
+      "id": "bg-044-01-1v",
+      "sku": "MRX-HEXA-2MG-1V",
+      "title": "2mg · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-044-01"
+     },
+     {
+      "id": "bg-044-02",
+      "sku": "MRX-HEXA-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 271.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-044-02"
+     },
+     {
+      "id": "bg-044-02-1v",
+      "sku": "MRX-HEXA-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 33.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-044-02"
+     },
+     {
+      "id": "bg-044-03",
+      "sku": "MRX-HEXA-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 415.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-044-03"
+     },
+     {
+      "id": "bg-044-03-1v",
+      "sku": "MRX-HEXA-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 51.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-044-03"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-045",
+    "handle": "hgh",
+    "title": "HGH",
+    "subtitle": "HGH",
+    "description": "HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein of about 22 kDa with two disulfide bridges, identical in sequence to pituitary human growth hormone. Vials are labelled in international units (IU); 1 mg of somatropin corresponds to about 3 IU. Research areas: growth-hormone receptor signaling, the GH/IGF-1 axis and cell growth in cell and animal models. Supplied as a lyophilized powder for laboratory research use only. Not for human or veterinary use.",
+    "category": "Compounds",
+    "amount": 30.99,
+    "currency": "USD",
+    "size": "10 IU · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-045.webp",
+     "altText": "HGH vial illustration",
+     "box": "/product-images/hgh-box.webp",
+     "boxByDose": {
+      "bg-045-01": "/product-images/hgh-10-iu-box.webp",
+      "bg-045-02": "/product-images/hgh-12-iu-box.webp",
+      "bg-045-03": "/product-images/hgh-15-iu-box.webp",
+      "bg-045-04": "/product-images/hgh-20-iu-box.webp",
+      "bg-045-05": "/product-images/hgh-24-iu-box.webp",
+      "bg-045-06": "/product-images/hgh-36-iu-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-045-01",
+      "sku": "MRX-HGH-10IU-BX10",
+      "title": "10 IU · 10-vial kit",
+      "amount": 247.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-045-01"
+     },
+     {
+      "id": "bg-045-01-1v",
+      "sku": "MRX-HGH-10IU-1V",
+      "title": "10 IU · 1 vial",
+      "amount": 30.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-045-01"
+     },
+     {
+      "id": "bg-045-02",
+      "sku": "MRX-HGH-12IU-BX10",
+      "title": "12iu · 10-vial kit",
+      "amount": 260,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-045-02"
+     },
+     {
+      "id": "bg-045-02-1v",
+      "sku": "MRX-HGH-12IU-1V",
+      "title": "12iu · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-045-02"
+     },
+     {
+      "id": "bg-045-03",
+      "sku": "MRX-HGH-15IU-BX10",
+      "title": "15 IU · 10-vial kit",
+      "amount": 287.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-045-03"
+     },
+     {
+      "id": "bg-045-03-1v",
+      "sku": "MRX-HGH-15IU-1V",
+      "title": "15 IU · 1 vial",
+      "amount": 35.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-045-03"
+     },
+     {
+      "id": "bg-045-04",
+      "sku": "MRX-HGH-20IU-BX10",
+      "title": "20iu · 10-vial kit",
+      "amount": 390,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-045-04"
+     },
+     {
+      "id": "bg-045-04-1v",
+      "sku": "MRX-HGH-20IU-1V",
+      "title": "20iu · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-045-04"
+     },
+     {
+      "id": "bg-045-05",
+      "sku": "MRX-HGH-24IU-BX10",
+      "title": "24 IU · 10-vial kit",
+      "amount": 399.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-045-05"
+     },
+     {
+      "id": "bg-045-05-1v",
+      "sku": "MRX-HGH-24IU-1V",
+      "title": "24 IU · 1 vial",
+      "amount": 48.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-045-05"
+     },
+     {
+      "id": "bg-045-06",
+      "sku": "MRX-HGH-36IU-BX10",
+      "title": "36 IU · 10-vial kit",
+      "amount": 525,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-045-06"
+     },
+     {
+      "id": "bg-045-06-1v",
+      "sku": "MRX-HGH-36IU-1V",
+      "title": "36 IU · 1 vial",
+      "amount": 85,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-045-06"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "VAN-V260901-20-001",
+      "product": "HGH",
+      "productUrl": "/products/hgh",
+      "dose": "36 IU",
+      "testDate": "2026-09-04",
+      "lab": "Vanguard Laboratory",
+      "purity": 97.47,
+      "method": "HPLC-UV/VIS",
+      "documentUrl": "/api/verify/document?lot=VAN-V260901-20-001"
+     }
+    ]
+   },
+   {
+    "id": "bg-046",
+    "handle": "hgh-fragment-176-191",
+    "title": "HGH Fragment 176-191",
+    "subtitle": "HGH Fragment 176-191",
+    "description": "HGH Fragment 176-191 is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 65,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-046.webp",
+     "altText": "HGH Fragment 176-191 vial illustration",
+     "box": "/product-images/hgh-fragment-176-191-box.webp",
+     "boxByDose": {
+      "bg-046-01": "/product-images/hgh-fragment-176-191-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-046-01",
+      "sku": "MRX-FRAG176-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 310,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-046-01"
+     },
+     {
+      "id": "bg-046-01-1v",
+      "sku": "MRX-FRAG176-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 65,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-046-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-047",
+    "handle": "hmg",
+    "title": "HMG",
+    "subtitle": "HMG",
+    "description": "HMG is human menopausal gonadotropin, a preparation of the glycoprotein hormones follicle-stimulating hormone (FSH) and luteinizing hormone (LH) purified from the urine of postmenopausal women. Activity is labelled in international units (IU) of FSH and LH per vial (75 IU). Research areas: gonadotropin receptor signaling and reproductive endocrinology in cell and animal models. Supplied as a lyophilized powder for laboratory research use only. Not for human or veterinary use.",
+    "category": "Compounds",
+    "amount": 24.99,
+    "currency": "USD",
+    "size": "75 IU · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-047.webp",
+     "altText": "HMG vial illustration",
+     "box": "/product-images/hmg-box.webp",
+     "boxByDose": {
+      "bg-047-01": "/product-images/hmg-75-iu-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-047-01",
+      "sku": "MRX-HMG-75IU-BX10",
+      "title": "75 IU · 10-vial kit",
+      "amount": 199.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-047-01"
+     },
+     {
+      "id": "bg-047-01-1v",
+      "sku": "MRX-HMG-75IU-1V",
+      "title": "75 IU · 1 vial",
+      "amount": 24.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-047-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-048",
+    "handle": "humanin",
+    "title": "Humanin",
+    "subtitle": "Humanin",
+    "description": "Humanin is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 100,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-048.webp",
+     "altText": "Humanin vial illustration",
+     "box": "/product-images/humanin-box.webp",
+     "boxByDose": {
+      "bg-048-01": "/product-images/humanin-10-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-048-01",
+      "sku": "MRX-HUMANIN-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 670,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-048-01"
+     },
+     {
+      "id": "bg-048-01-1v",
+      "sku": "MRX-HUMANIN-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 100,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-048-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-050",
+    "handle": "igf-1-lr3",
+    "title": "IGF-1 LR3",
+    "subtitle": "IGF-1 LR3",
+    "description": "IGF-1 LR3 (Long R3 IGF-1) is an 83-amino-acid recombinant analog of human insulin-like growth factor 1. It has an arginine in place of glutamate at position 3 and a 13-amino-acid N-terminal extension, which lowers its binding to IGF binding proteins. Molecular weight about 9.1 kDa. Research areas: IGF-1 receptor signaling, cell proliferation assays and cell-culture media supplementation. Supplied as a lyophilized powder for laboratory research use only. Not for human or veterinary use.",
+    "category": "Compounds",
+    "amount": 22.99,
+    "currency": "USD",
+    "size": "0.1mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-050.webp",
+     "altText": "IGF-1 LR3 vial illustration",
+     "box": "/product-images/igf-1-lr3-box.webp",
+     "boxByDose": {
+      "bg-050-01": "/product-images/igf-1-lr3-0-1-mg-box.webp",
+      "bg-050-02": "/product-images/igf-1-lr3-1-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-050-01",
+      "sku": "MRX-IGF1LR3-100MCG-BX10",
+      "title": "0.1mg · 10-vial kit",
+      "amount": 183.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-050-01"
+     },
+     {
+      "id": "bg-050-01-1v",
+      "sku": "MRX-IGF1LR3-100MCG-1V",
+      "title": "0.1mg · 1 vial",
+      "amount": 22.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-050-01"
+     },
+     {
+      "id": "bg-050-02",
+      "sku": "MRX-IGF1LR3-1MG-BX10",
+      "title": "1mg · 10-vial kit",
+      "amount": 430,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-050-02"
+     },
+     {
+      "id": "bg-050-02-1v",
+      "sku": "MRX-IGF1LR3-1MG-1V",
+      "title": "1mg · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-050-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-052",
+    "handle": "ipamorelin",
+    "title": "Ipamorelin",
+    "subtitle": "Ipamorelin",
+    "description": "Ipamorelin is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 22.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-052.webp",
+     "altText": "Ipamorelin vial illustration",
+     "box": "/product-images/ipamorelin-box.webp",
+     "boxByDose": {
+      "bg-052-02": "/product-images/ipamorelin-10-mg-box.webp",
+      "bg-052-01": "/product-images/ipamorelin-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-052-01",
+      "sku": "MRX-IPAM-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 183.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-052-01"
+     },
+     {
+      "id": "bg-052-01-1v",
+      "sku": "MRX-IPAM-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 22.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-052-01"
+     },
+     {
+      "id": "bg-052-02",
+      "sku": "MRX-IPAM-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 305.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-052-02"
+     },
+     {
+      "id": "bg-052-02-1v",
+      "sku": "MRX-IPAM-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 38.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-052-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-053",
+    "handle": "kisspeptin-10",
+    "title": "Kisspeptin-10",
+    "subtitle": "Kisspeptin-10",
+    "description": "Kisspeptin-10 is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 21.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-053.webp",
+     "altText": "Kisspeptin-10 vial illustration",
+     "box": "/product-images/kisspeptin-10-box.webp",
+     "boxByDose": {
+      "bg-053-02": "/product-images/kisspeptin-10-10-mg-box.webp",
+      "bg-053-01": "/product-images/kisspeptin-10-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-053-01",
+      "sku": "MRX-KISS10-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 175.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-053-01"
+     },
+     {
+      "id": "bg-053-01-1v",
+      "sku": "MRX-KISS10-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 21.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-053-01"
+     },
+     {
+      "id": "bg-053-02",
+      "sku": "MRX-KISS10-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 359.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-053-02"
+     },
+     {
+      "id": "bg-053-02-1v",
+      "sku": "MRX-KISS10-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 44.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-053-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-054",
+    "handle": "klow-blend-bpc-157-plus-tb-500-plus-ghk-cu-plus-kpv",
+    "title": "KLOW Blend (BPC-157 + TB-500 + GHK-CU + KPV)",
+    "subtitle": "KLOW Blend (BPC-157 + TB-500 + GHK-CU + KPV)",
+    "description": "KLOW Blend (BPC-157 + TB-500 + GHK-CU + KPV) is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Blends",
+    "amount": 52.99,
+    "currency": "USD",
+    "size": "80mg total · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-054.webp",
+     "altText": "KLOW Blend (BPC-157 + TB-500 + GHK-CU + KPV) vial illustration",
+     "box": "/product-images/klow-blend-bpc-157-plus-tb-500-plus-ghk-cu-plus-kpv-box.webp",
+     "boxByDose": {
+      "bg-054-01": "/product-images/klow-blend-bpc-157-plus-tb-500-plus-ghk-cu-plus-kpv-80-mg-total-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-054-01",
+      "sku": "MRX-KLOW-BLEND-80MG-BX10",
+      "title": "80mg total · 10-vial kit",
+      "amount": 439.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-054-01"
+     },
+     {
+      "id": "bg-054-01-1v",
+      "sku": "MRX-KLOW-BLEND-80MG-1V",
+      "title": "80mg total · 1 vial",
+      "amount": 52.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-054-01"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "CHR-38441",
+      "product": "KLOW Blend (BPC-157 + TB-500 + GHK-CU + KPV)",
+      "productUrl": "/products/klow-blend-bpc-157-plus-tb-500-plus-ghk-cu-plus-kpv",
+      "dose": "80mg total",
+      "testDate": "2026-08-19",
+      "lab": "Chromate",
+      "purity": 99.257,
+      "method": "RP-HPLC-UV",
+      "documentUrl": "/api/verify/document?lot=CHR-38441"
+     }
+    ]
+   },
+   {
+    "id": "bg-055",
+    "handle": "kpv",
+    "title": "KPV",
+    "subtitle": "KPV",
+    "description": "KPV is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 20.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-055.webp",
+     "altText": "KPV vial illustration",
+     "box": "/product-images/kpv-box.webp",
+     "boxByDose": {
+      "bg-055-02": "/product-images/kpv-10-mg-box.webp",
+      "bg-055-01": "/product-images/kpv-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-055-01",
+      "sku": "MRX-KPV-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 167.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-055-01"
+     },
+     {
+      "id": "bg-055-01-1v",
+      "sku": "MRX-KPV-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 20.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-055-01"
+     },
+     {
+      "id": "bg-055-02",
+      "sku": "MRX-KPV-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 279.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-055-02"
+     },
+     {
+      "id": "bg-055-02-1v",
+      "sku": "MRX-KPV-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 34.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-055-02"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "FD-2609170323",
+      "product": "KPV",
+      "productUrl": "/products/kpv",
+      "dose": "10mg",
+      "testDate": "2026-09-19",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.87,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2609170323"
+     }
+    ]
+   },
+   {
+    "id": "bg-056",
+    "handle": "kpv-10mg-plus-ghk-cu-50mg",
+    "title": "KPV 10mg + GHK-CU 50mg",
+    "subtitle": "KPV 10mg + GHK-CU 50mg",
+    "description": "KPV 10mg + GHK-CU 50mg is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Blends",
+    "amount": 65,
+    "currency": "USD",
+    "size": "60mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-056.webp",
+     "altText": "KPV 10mg + GHK-CU 50mg vial illustration",
+     "box": "/product-images/kpv-10mg-plus-ghk-cu-50mg-box.webp",
+     "boxByDose": {
+      "bg-056-01": "/product-images/kpv-10mg-plus-ghk-cu-50mg-60-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-056-01",
+      "sku": "MRX-KPVGHK-BLEND-60MG-BX10",
+      "title": "60mg · 10-vial kit",
+      "amount": 300,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-056-01"
+     },
+     {
+      "id": "bg-056-01-1v",
+      "sku": "MRX-KPVGHK-BLEND-60MG-1V",
+      "title": "60mg · 1 vial",
+      "amount": 65,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-056-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-060",
+    "handle": "lipo-c-lc120",
+    "title": "Lipo-C (LC120)",
+    "subtitle": "Lipo-C (LC120)",
+    "description": "Lipo-C (LC120) is a multi-ingredient injectable formulation. The supplier record lists it as a lipotropic blend (methionine, inositol, choline) with vitamin B12; the exact composition and concentration per vial are stated on the supplier's lot documentation and are not confirmed here. It is not a peptide. Supplied for laboratory research use only. Not for human or veterinary use.",
+    "category": "Compounds",
+    "amount": 55,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-060.webp",
+     "altText": "Lipo-C (LC120) vial illustration",
+     "box": "/product-images/lipo-c-lc120-box.webp",
+     "boxByDose": {
+      "bg-060-01": "/product-images/lipo-c-lc120-10-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-060-01",
+      "sku": "MRX-LC120-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 215,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-060-01"
+     },
+     {
+      "id": "bg-060-01-1v",
+      "sku": "MRX-LC120-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 55,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-060-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-062",
+    "handle": "ll-37",
+    "title": "LL-37",
+    "subtitle": "LL-37",
+    "description": "LL-37 is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 65,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-062.webp",
+     "altText": "LL-37 vial illustration",
+     "box": "/product-images/ll-37-box.webp",
+     "boxByDose": {
+      "bg-062-02": "/product-images/ll-37-10-mg-box.webp",
+      "bg-062-01": "/product-images/ll-37-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-062-01",
+      "sku": "MRX-LL37-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 310,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-062-01"
+     },
+     {
+      "id": "bg-062-01-1v",
+      "sku": "MRX-LL37-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 65,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-062-01"
+     },
+     {
+      "id": "bg-062-02",
+      "sku": "MRX-LL37-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 887.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-062-02"
+     },
+     {
+      "id": "bg-062-02-1v",
+      "sku": "MRX-LL37-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 110.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-062-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-063",
+    "handle": "matrixyl",
+    "title": "Matrixyl",
+    "subtitle": "Matrixyl",
+    "description": "Matrixyl is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 55,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-063.webp",
+     "altText": "Matrixyl vial illustration",
+     "box": "/product-images/matrixyl-box.webp",
+     "boxByDose": {
+      "bg-063-01": "/product-images/matrixyl-10-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-063-01",
+      "sku": "MRX-MATRIXYL-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 220,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-063-01"
+     },
+     {
+      "id": "bg-063-01-1v",
+      "sku": "MRX-MATRIXYL-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 55,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-063-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-068",
+    "handle": "mgf",
+    "title": "MGF",
+    "subtitle": "MGF",
+    "description": "MGF is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 55,
+    "currency": "USD",
+    "size": "2mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-068.webp",
+     "altText": "MGF vial illustration",
+     "box": "/product-images/mgf-box.webp",
+     "boxByDose": {
+      "bg-068-01": "/product-images/mgf-2-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-068-01",
+      "sku": "MRX-MGF-2MG-BX10",
+      "title": "2mg · 10-vial kit",
+      "amount": 225,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-068-01"
+     },
+     {
+      "id": "bg-068-01-1v",
+      "sku": "MRX-MGF-2MG-1V",
+      "title": "2mg · 1 vial",
+      "amount": 55,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-068-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-069",
+    "handle": "mots-c",
+    "title": "MOTS-c",
+    "subtitle": "MOTS-c",
+    "description": "MOTS-c is listed in our sourcing catalog with 3 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 51.99,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-069.webp",
+     "altText": "MOTS-c vial illustration",
+     "box": "/product-images/mots-c-box.webp",
+     "boxByDose": {
+      "bg-069-01": "/product-images/mots-c-10-mg-box.webp",
+      "bg-069-02": "/product-images/mots-c-20-mg-box.webp",
+      "bg-069-03": "/product-images/mots-c-40-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-069-01",
+      "sku": "MRX-MOTSC-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 415.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-069-01"
+     },
+     {
+      "id": "bg-069-01-1v",
+      "sku": "MRX-MOTSC-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 51.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-069-01"
+     },
+     {
+      "id": "bg-069-02",
+      "sku": "MRX-MOTSC-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 823.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-069-02"
+     },
+     {
+      "id": "bg-069-02-1v",
+      "sku": "MRX-MOTSC-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 102.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-069-02"
+     },
+     {
+      "id": "bg-069-03",
+      "sku": "MRX-MOTSC-40MG-BX10",
+      "title": "40mg · 10-vial kit",
+      "amount": 1639.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-069-03"
+     },
+     {
+      "id": "bg-069-03-1v",
+      "sku": "MRX-MOTSC-40MG-1V",
+      "title": "40mg · 1 vial",
+      "amount": 204.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-069-03"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "FD-2609220147",
+      "product": "MOTS-c",
+      "productUrl": "/products/mots-c",
+      "dose": "40mg",
+      "testDate": "2026-09-24",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.89,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2609220147"
+     },
+     {
+      "lot": "FD-2607200579",
+      "product": "MOTS-c",
+      "productUrl": "/products/mots-c",
+      "dose": "10mg",
+      "testDate": "2026-07-22",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.39,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2607200579"
+     },
+     {
+      "lot": "FD-2607130307",
+      "product": "MOTS-c",
+      "productUrl": "/products/mots-c",
+      "dose": "10mg",
+      "testDate": "2026-07-15",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.57,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2607130307"
+     }
+    ]
+   },
+   {
+    "id": "bg-070",
+    "handle": "n-acetyl-selank-amidate",
+    "title": "N-Acetyl Selank Amidate",
+    "subtitle": "N-Acetyl Selank Amidate",
+    "description": "N-Acetyl Selank Amidate is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 60,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-070.webp",
+     "altText": "N-Acetyl Selank Amidate vial illustration",
+     "box": "/product-images/n-acetyl-selank-amidate-box.webp",
+     "boxByDose": {
+      "bg-070-01": "/product-images/n-acetyl-selank-amidate-10-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-070-01",
+      "sku": "MRX-NASELANK-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 260,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-070-01"
+     },
+     {
+      "id": "bg-070-01-1v",
+      "sku": "MRX-NASELANK-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-070-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-071",
+    "handle": "nad-plus-also-listed-as-nad",
+    "title": "NAD+ (also listed as NAD)",
+    "subtitle": "NAD+ (also listed as NAD)",
+    "description": "NAD+ (also listed as NAD) is listed in our sourcing catalog with 3 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 19.99,
+    "currency": "USD",
+    "size": "100mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-071.webp",
+     "altText": "NAD+ vial illustration",
+     "box": "/product-images/nad-plus-also-listed-as-nad-box.webp",
+     "boxByDose": {
+      "bg-071-01": "/product-images/nad-plus-also-listed-as-nad-100-mg-box.webp",
+      "bg-071-03": "/product-images/nad-plus-also-listed-as-nad-1000-mg-box.webp",
+      "bg-071-02": "/product-images/nad-plus-also-listed-as-nad-500-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-071-01",
+      "sku": "MRX-NAD-100MG-BX10",
+      "title": "100mg · 10-vial kit",
+      "amount": 159.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-071-01"
+     },
+     {
+      "id": "bg-071-01-1v",
+      "sku": "MRX-NAD-100MG-1V",
+      "title": "100mg · 1 vial",
+      "amount": 19.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-071-01"
+     },
+     {
+      "id": "bg-071-02",
+      "sku": "MRX-NAD-500MG-BX10",
+      "title": "500mg · 10-vial kit",
+      "amount": 407.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-071-02"
+     },
+     {
+      "id": "bg-071-02-1v",
+      "sku": "MRX-NAD-500MG-1V",
+      "title": "500mg · 1 vial",
+      "amount": 50.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-071-02"
+     },
+     {
+      "id": "bg-071-03",
+      "sku": "MRX-NAD-1000MG-BX10",
+      "title": "1000mg · 10-vial kit",
+      "amount": 809.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-071-03"
+     },
+     {
+      "id": "bg-071-03-1v",
+      "sku": "MRX-NAD-1000MG-1V",
+      "title": "1000mg · 1 vial",
+      "amount": 101.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-071-03"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-074",
+    "handle": "ovagen",
+    "title": "Ovagen",
+    "subtitle": "Ovagen",
+    "description": "Ovagen is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 75,
+    "currency": "USD",
+    "size": "20mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-074.webp",
+     "altText": "Ovagen vial illustration",
+     "box": "/product-images/ovagen-box.webp",
+     "boxByDose": {
+      "bg-074-01": "/product-images/ovagen-20-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-074-01",
+      "sku": "MRX-OVAGEN-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 390,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-074-01"
+     },
+     {
+      "id": "bg-074-01-1v",
+      "sku": "MRX-OVAGEN-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-074-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-076",
+    "handle": "pancragen",
+    "title": "Pancragen",
+    "subtitle": "Pancragen",
+    "description": "Pancragen is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 75,
+    "currency": "USD",
+    "size": "20mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-076.webp",
+     "altText": "Pancragen vial illustration",
+     "box": "/product-images/pancragen-box.webp",
+     "boxByDose": {
+      "bg-076-01": "/product-images/pancragen-20-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-076-01",
+      "sku": "MRX-PANCRAGEN-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 390,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-076-01"
+     },
+     {
+      "id": "bg-076-01-1v",
+      "sku": "MRX-PANCRAGEN-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-076-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-077",
+    "handle": "pe-22-28",
+    "title": "PE 22-28",
+    "subtitle": "PE 22-28",
+    "description": "PE 22-28 is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 55,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-077.webp",
+     "altText": "PE 22-28 vial illustration",
+     "box": "/product-images/pe-22-28-box.webp",
+     "boxByDose": {
+      "bg-077-02": "/product-images/pe-22-28-10-mg-box.webp",
+      "bg-077-01": "/product-images/pe-22-28-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-077-01",
+      "sku": "MRX-PE2228-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 235,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-077-01"
+     },
+     {
+      "id": "bg-077-01-1v",
+      "sku": "MRX-PE2228-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 55,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-077-01"
+     },
+     {
+      "id": "bg-077-02",
+      "sku": "MRX-PE2228-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 270,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-077-02"
+     },
+     {
+      "id": "bg-077-02-1v",
+      "sku": "MRX-PE2228-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-077-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-078",
+    "handle": "peg-mgf",
+    "title": "PEG MGF",
+    "subtitle": "PEG MGF",
+    "description": "PEG MGF is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 65,
+    "currency": "USD",
+    "size": "2mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-078.webp",
+     "altText": "PEG MGF vial illustration",
+     "box": "/product-images/peg-mgf-box.webp",
+     "boxByDose": {
+      "bg-078-01": "/product-images/peg-mgf-2-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-078-01",
+      "sku": "MRX-PEGMGF-2MG-BX10",
+      "title": "2mg · 10-vial kit",
+      "amount": 290,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-078-01"
+     },
+     {
+      "id": "bg-078-01-1v",
+      "sku": "MRX-PEGMGF-2MG-1V",
+      "title": "2mg · 1 vial",
+      "amount": 65,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-078-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-079",
+    "handle": "pinealon",
+    "title": "Pinealon",
+    "subtitle": "Pinealon",
+    "description": "Pinealon is listed in our sourcing catalog with 3 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 24.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-079.webp",
+     "altText": "Pinealon vial illustration",
+     "box": "/product-images/pinealon-box.webp",
+     "boxByDose": {
+      "bg-079-02": "/product-images/pinealon-10-mg-box.webp",
+      "bg-079-03": "/product-images/pinealon-20-mg-box.webp",
+      "bg-079-01": "/product-images/pinealon-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-079-01",
+      "sku": "MRX-PINEALON-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 199.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-079-01"
+     },
+     {
+      "id": "bg-079-01-1v",
+      "sku": "MRX-PINEALON-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 24.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-079-01"
+     },
+     {
+      "id": "bg-079-02",
+      "sku": "MRX-PINEALON-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 215.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-079-02"
+     },
+     {
+      "id": "bg-079-02-1v",
+      "sku": "MRX-PINEALON-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 26.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-079-02"
+     },
+     {
+      "id": "bg-079-03",
+      "sku": "MRX-PINEALON-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 375.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-079-03"
+     },
+     {
+      "id": "bg-079-03-1v",
+      "sku": "MRX-PINEALON-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 46.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-079-03"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "DINGUS901",
+      "product": "Pinealon",
+      "productUrl": "/products/pinealon",
+      "dose": "10mg",
+      "testDate": "2026-09-15",
+      "lab": "Liquilabs s.r.o.",
+      "purity": 99.8,
+      "method": "RP-HPLC (0.1% TFA)",
+      "documentUrl": "/api/verify/document?lot=DINGUS901"
+     }
+    ]
+   },
+   {
+    "id": "bg-080",
+    "handle": "pnc-27",
+    "title": "PNC-27",
+    "subtitle": "PNC-27",
+    "description": "PNC-27 is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 65,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-080.webp",
+     "altText": "PNC-27 vial illustration",
+     "box": "/product-images/pnc-27-box.webp",
+     "boxByDose": {
+      "bg-080-02": "/product-images/pnc-27-10-mg-box.webp",
+      "bg-080-01": "/product-images/pnc-27-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-080-01",
+      "sku": "MRX-PNC27-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 320,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-080-01"
+     },
+     {
+      "id": "bg-080-01-1v",
+      "sku": "MRX-PNC27-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 65,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-080-01"
+     },
+     {
+      "id": "bg-080-02",
+      "sku": "MRX-PNC27-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 410,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-080-02"
+     },
+     {
+      "id": "bg-080-02-1v",
+      "sku": "MRX-PNC27-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-080-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-082",
+    "handle": "prostamax",
+    "title": "Prostamax",
+    "subtitle": "Prostamax",
+    "description": "Prostamax is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 75,
+    "currency": "USD",
+    "size": "20mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-082.webp",
+     "altText": "Prostamax vial illustration",
+     "box": "/product-images/prostamax-box.webp",
+     "boxByDose": {
+      "bg-082-01": "/product-images/prostamax-20-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-082-01",
+      "sku": "MRX-PROSTAMAX-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 390,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-082-01"
+     },
+     {
+      "id": "bg-082-01-1v",
+      "sku": "MRX-PROSTAMAX-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-082-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-085",
+    "handle": "retatrutide",
+    "title": "Retatrutide",
+    "subtitle": "Retatrutide",
+    "description": "Retatrutide (LY3437943) is a synthetic peptide developed by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple receptor agonist). It carries a fatty-acid side chain for albumin binding. It is an investigational compound and is not approved by the FDA. Research areas: incretin receptor pharmacology, energy metabolism and glucose metabolism in animal and cell models. Supplied as a lyophilized powder for laboratory research use only. Not for human or veterinary use.",
+    "category": "Compounds",
+    "amount": 20.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-085.webp",
+     "altText": "Retatrutide vial illustration",
+     "box": "/product-images/retatrutide-box.webp",
+     "boxByDose": {
+      "bg-085-02": "/product-images/retatrutide-10-mg-box.webp",
+      "bg-085-11": "/product-images/retatrutide-100-mg-box.webp",
+      "bg-085-03": "/product-images/retatrutide-15-mg-box.webp",
+      "bg-085-04": "/product-images/retatrutide-20-mg-box.webp",
+      "bg-085-05": "/product-images/retatrutide-24-mg-box.webp",
+      "bg-085-06": "/product-images/retatrutide-30-mg-box.webp",
+      "bg-085-07": "/product-images/retatrutide-36-mg-box.webp",
+      "bg-085-08": "/product-images/retatrutide-40-mg-box.webp",
+      "bg-085-01": "/product-images/retatrutide-5-mg-box.webp",
+      "bg-085-09": "/product-images/retatrutide-50-mg-box.webp",
+      "bg-085-10": "/product-images/retatrutide-60-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-085-01",
+      "sku": "MRX-RETA-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 167.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-085-01"
+     },
+     {
+      "id": "bg-085-01-1v",
+      "sku": "MRX-RETA-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 20.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-085-01"
+     },
+     {
+      "id": "bg-085-02",
+      "sku": "MRX-RETA-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 207.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-085-02"
+     },
+     {
+      "id": "bg-085-02-1v",
+      "sku": "MRX-RETA-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 25.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-085-02"
+     },
+     {
+      "id": "bg-085-03",
+      "sku": "MRX-RETA-15MG-BX10",
+      "title": "15mg · 10-vial kit",
+      "amount": 231.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-085-03"
+     },
+     {
+      "id": "bg-085-03-1v",
+      "sku": "MRX-RETA-15MG-1V",
+      "title": "15mg · 1 vial",
+      "amount": 28.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-085-03"
+     },
+     {
+      "id": "bg-085-04",
+      "sku": "MRX-RETA-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 255.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-085-04"
+     },
+     {
+      "id": "bg-085-04-1v",
+      "sku": "MRX-RETA-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 31.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-085-04"
+     },
+     {
+      "id": "bg-085-05",
+      "sku": "MRX-RETA-24MG-BX10",
+      "title": "24mg · 10-vial kit",
+      "amount": 515,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-085-05"
+     },
+     {
+      "id": "bg-085-05-1v",
+      "sku": "MRX-RETA-24MG-1V",
+      "title": "24mg · 1 vial",
+      "amount": 85,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-085-05"
+     },
+     {
+      "id": "bg-085-06",
+      "sku": "MRX-RETA-30MG-BX10",
+      "title": "30mg · 10-vial kit",
+      "amount": 319.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-085-06"
+     },
+     {
+      "id": "bg-085-06-1v",
+      "sku": "MRX-RETA-30MG-1V",
+      "title": "30mg · 1 vial",
+      "amount": 39.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-085-06"
+     },
+     {
+      "id": "bg-085-07",
+      "sku": "MRX-RETA-36MG-BX10",
+      "title": "36mg · 10-vial kit",
+      "amount": 635,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-085-07"
+     },
+     {
+      "id": "bg-085-07-1v",
+      "sku": "MRX-RETA-36MG-1V",
+      "title": "36mg · 1 vial",
+      "amount": 95,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-085-07"
+     },
+     {
+      "id": "bg-085-08",
+      "sku": "MRX-RETA-40MG-BX10",
+      "title": "40mg · 10-vial kit",
+      "amount": 399.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-085-08"
+     },
+     {
+      "id": "bg-085-08-1v",
+      "sku": "MRX-RETA-40MG-1V",
+      "title": "40mg · 1 vial",
+      "amount": 48.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-085-08"
+     },
+     {
+      "id": "bg-085-09",
+      "sku": "MRX-RETA-50MG-BX10",
+      "title": "50mg · 10-vial kit",
+      "amount": 439.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-085-09"
+     },
+     {
+      "id": "bg-085-09-1v",
+      "sku": "MRX-RETA-50MG-1V",
+      "title": "50mg · 1 vial",
+      "amount": 52.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-085-09"
+     },
+     {
+      "id": "bg-085-10",
+      "sku": "MRX-RETA-60MG-BX10",
+      "title": "60mg · 10-vial kit",
+      "amount": 500.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-085-10"
+     },
+     {
+      "id": "bg-085-10-1v",
+      "sku": "MRX-RETA-60MG-1V",
+      "title": "60mg · 1 vial",
+      "amount": 59.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-085-10"
+     },
+     {
+      "id": "bg-085-11",
+      "sku": "MRX-RETA-100MG-BX10",
+      "title": "100mg · 10-vial kit",
+      "amount": 870,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-085-11"
+     },
+     {
+      "id": "bg-085-11-1v",
+      "sku": "MRX-RETA-100MG-1V",
+      "title": "100mg · 1 vial",
+      "amount": 120,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-085-11"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "JAN-237398",
+      "product": "Retatrutide",
+      "productUrl": "/products/retatrutide",
+      "dose": "60mg",
+      "testDate": "2026-09-29",
+      "lab": "Janoshik Analytical",
+      "purity": 99.902,
+      "method": "HPLC / LC-MS (Janoshik)",
+      "documentUrl": "/api/verify/document?lot=JAN-237398"
+     },
+     {
+      "lot": "FD-2609040275",
+      "product": "Retatrutide",
+      "productUrl": "/products/retatrutide",
+      "dose": "40mg",
+      "testDate": "2026-09-06",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.84,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2609040275"
+     },
+     {
+      "lot": "FD-2609020862",
+      "product": "Retatrutide",
+      "productUrl": "/products/retatrutide",
+      "dose": "60mg",
+      "testDate": "2026-09-05",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.9,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2609020862"
+     },
+     {
+      "lot": "JAN-220508",
+      "product": "Retatrutide",
+      "productUrl": "/products/retatrutide",
+      "dose": "30mg",
+      "testDate": "2026-08-18",
+      "lab": "Janoshik Analytical",
+      "purity": 99.769,
+      "method": "HPLC / LC-MS (Janoshik)",
+      "documentUrl": "/api/verify/document?lot=JAN-220508"
+     },
+     {
+      "lot": "JAN-207559",
+      "product": "Retatrutide",
+      "productUrl": "/products/retatrutide",
+      "dose": "30mg",
+      "testDate": "2026-07-27",
+      "lab": "Janoshik Analytical",
+      "purity": 99.78,
+      "method": "HPLC / LC-MS (Janoshik)",
+      "documentUrl": "/api/verify/document?lot=JAN-207559"
+     },
+     {
+      "lot": "FD-2607060260",
+      "product": "Retatrutide",
+      "productUrl": "/products/retatrutide",
+      "dose": "20mg",
+      "testDate": "2026-07-08",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.98,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2607060260"
+     },
+     {
+      "lot": "FD-2607060257",
+      "product": "Retatrutide",
+      "productUrl": "/products/retatrutide",
+      "dose": "10mg",
+      "testDate": "2026-07-08",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.96,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2607060257"
+     }
+    ]
+   },
+   {
+    "id": "bg-087",
+    "handle": "selank",
+    "title": "Selank",
+    "subtitle": "Selank",
+    "description": "Selank is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 20.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-087.webp",
+     "altText": "Selank vial illustration",
+     "box": "/product-images/selank-box.webp",
+     "boxByDose": {
+      "bg-087-02": "/product-images/selank-10-mg-box.webp",
+      "bg-087-01": "/product-images/selank-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-087-01",
+      "sku": "MRX-SELANK-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 167.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-087-01"
+     },
+     {
+      "id": "bg-087-01-1v",
+      "sku": "MRX-SELANK-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 20.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-087-01"
+     },
+     {
+      "id": "bg-087-02",
+      "sku": "MRX-SELANK-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 247.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-087-02"
+     },
+     {
+      "id": "bg-087-02-1v",
+      "sku": "MRX-SELANK-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 30.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-087-02"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "PROBIOS-SK10-0726",
+      "product": "Selank",
+      "productUrl": "/products/selank",
+      "dose": "10mg",
+      "testDate": "2026-08-03",
+      "lab": "Vanguard Laboratory",
+      "purity": 99.49,
+      "method": "HPLC-UV/VIS",
+      "documentUrl": "/api/verify/document?lot=PROBIOS-SK10-0726"
+     }
+    ]
+   },
+   {
+    "id": "bg-088",
+    "handle": "selank-plus-semax-blend",
+    "title": "Selank + Semax Blend",
+    "subtitle": "Selank + Semax Blend",
+    "description": "Selank + Semax Blend is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Blends",
+    "amount": 65,
+    "currency": "USD",
+    "size": "20mg total (10mg + 10mg) · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-088.webp",
+     "altText": "Selank + Semax Blend vial illustration",
+     "box": "/product-images/selank-plus-semax-blend-box.webp",
+     "boxByDose": {
+      "bg-088-01": "/product-images/selank-plus-semax-blend-20-mg-total-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-088-01",
+      "sku": "MRX-SELANKSEMAX-BLEND-20MG-BX10",
+      "title": "20mg total (10mg + 10mg) · 10-vial kit",
+      "amount": 335,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-088-01"
+     },
+     {
+      "id": "bg-088-01-1v",
+      "sku": "MRX-SELANKSEMAX-BLEND-20MG-1V",
+      "title": "20mg total (10mg + 10mg) · 1 vial",
+      "amount": 65,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-088-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-090",
+    "handle": "semax",
+    "title": "Semax",
+    "subtitle": "Semax",
+    "description": "Semax is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 20.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-090.webp",
+     "altText": "Semax vial illustration",
+     "box": "/product-images/semax-box.webp",
+     "boxByDose": {
+      "bg-090-02": "/product-images/semax-10-mg-box.webp",
+      "bg-090-01": "/product-images/semax-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-090-01",
+      "sku": "MRX-SEMAX-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 167.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-090-01"
+     },
+     {
+      "id": "bg-090-01-1v",
+      "sku": "MRX-SEMAX-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 20.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-090-01"
+     },
+     {
+      "id": "bg-090-02",
+      "sku": "MRX-SEMAX-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 191.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-090-02"
+     },
+     {
+      "id": "bg-090-02-1v",
+      "sku": "MRX-SEMAX-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 23.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-090-02"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "PROBIOS-SX10-0726",
+      "product": "Semax",
+      "productUrl": "/products/semax",
+      "dose": "10mg",
+      "testDate": "2026-08-03",
+      "lab": "Vanguard Laboratory",
+      "purity": 99.11,
+      "method": "HPLC-UV/VIS",
+      "documentUrl": "/api/verify/document?lot=PROBIOS-SX10-0726"
+     }
+    ]
+   },
+   {
+    "id": "bg-091",
+    "handle": "sermorelin",
+    "title": "Sermorelin",
+    "subtitle": "Sermorelin",
+    "description": "Sermorelin is a synthetic 29-amino-acid peptide amide equal to residues 1-29 of human growth-hormone-releasing hormone (GHRH), the shortest fragment with full receptor-binding activity in vitro. Sequence H-YADAIFTNSYRKVLGQLSARKLLQDIMSR-NH2; PubChem CID 16132413; formula C149H246N44O42S; molecular weight 3357.9 g/mol. Research areas: GHRH receptor pharmacology and the growth-hormone axis. Supplied as a lyophilized powder for laboratory research use only. Not for human or veterinary use.",
+    "category": "Compounds",
+    "amount": 35.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-091.webp",
+     "altText": "Sermorelin vial illustration",
+     "box": "/product-images/sermorelin-box.webp",
+     "boxByDose": {
+      "bg-091-02": "/product-images/sermorelin-10-mg-box.webp",
+      "bg-091-01": "/product-images/sermorelin-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-091-01",
+      "sku": "MRX-SERMO-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 287.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-091-01"
+     },
+     {
+      "id": "bg-091-01-1v",
+      "sku": "MRX-SERMO-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 35.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-091-01"
+     },
+     {
+      "id": "bg-091-02",
+      "sku": "MRX-SERMO-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 479.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-091-02"
+     },
+     {
+      "id": "bg-091-02-1v",
+      "sku": "MRX-SERMO-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 59.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-091-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-093",
+    "handle": "snap-8",
+    "title": "Snap-8",
+    "subtitle": "Snap-8",
+    "description": "Snap-8 is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 20.99,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-093.webp",
+     "altText": "Snap-8 vial illustration",
+     "box": "/product-images/snap-8-box.webp",
+     "boxByDose": {
+      "bg-093-01": "/product-images/snap-8-10-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-093-01",
+      "sku": "MRX-SNAP8-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 167.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-093-01"
+     },
+     {
+      "id": "bg-093-01-1v",
+      "sku": "MRX-SNAP8-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 20.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-093-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-094",
+    "handle": "ss-31",
+    "title": "SS-31",
+    "subtitle": "SS-31",
+    "description": "SS-31 (elamipretide, MTP-131) is a synthetic tetrapeptide, D-Arg-Dmt-Lys-Phe-NH2, where Dmt is 2',6'-dimethyltyrosine. It is cell-permeable and localizes to the inner mitochondrial membrane, where it binds cardiolipin. PubChem CID 11764719; formula C32H49N9O5; molecular weight 639.8 g/mol. Research areas: mitochondrial membrane biology and bioenergetics in cell and animal models. Supplied as a lyophilized powder for laboratory research use only. Not for human or veterinary use.",
+    "category": "Compounds",
+    "amount": 34.99,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-094.webp",
+     "altText": "SS-31 vial illustration",
+     "box": "/product-images/ss-31-box.webp",
+     "boxByDose": {
+      "bg-094-01": "/product-images/ss-31-10-mg-box.webp",
+      "bg-094-02": "/product-images/ss-31-50-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-094-01",
+      "sku": "MRX-SS31-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 279.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-094-01"
+     },
+     {
+      "id": "bg-094-01-1v",
+      "sku": "MRX-SS31-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 34.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-094-01"
+     },
+     {
+      "id": "bg-094-02",
+      "sku": "MRX-SS31-50MG-BX10",
+      "title": "50mg · 10-vial kit",
+      "amount": 1359.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-094-02"
+     },
+     {
+      "id": "bg-094-02-1v",
+      "sku": "MRX-SS31-50MG-1V",
+      "title": "50mg · 1 vial",
+      "amount": 169.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-094-02"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "FD-2609170319",
+      "product": "SS-31",
+      "productUrl": "/products/ss-31",
+      "dose": "50mg",
+      "testDate": "2026-09-19",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.85,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2609170319"
+     },
+     {
+      "lot": "FD-2609089113",
+      "product": "SS-31",
+      "productUrl": "/products/ss-31",
+      "dose": "10mg",
+      "testDate": "2026-09-08",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.61,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2609089113"
+     }
+    ]
+   },
+   {
+    "id": "bg-097",
+    "handle": "tb-500",
+    "title": "TB-500",
+    "subtitle": "TB-500",
+    "description": "TB-500 is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 31.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-097.webp",
+     "altText": "TB-500 vial illustration",
+     "box": "/product-images/tb-500-box.webp",
+     "boxByDose": {
+      "bg-097-02": "/product-images/tb-500-10-mg-box.webp",
+      "bg-097-01": "/product-images/tb-500-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-097-01",
+      "sku": "MRX-TB500-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 255.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-097-01"
+     },
+     {
+      "id": "bg-097-01-1v",
+      "sku": "MRX-TB500-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 31.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-097-01"
+     },
+     {
+      "id": "bg-097-02",
+      "sku": "MRX-TB500-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 421.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-097-02"
+     },
+     {
+      "id": "bg-097-02-1v",
+      "sku": "MRX-TB500-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 52.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-097-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-100",
+    "handle": "tesamorelin",
+    "title": "Tesamorelin",
+    "subtitle": "Tesamorelin",
+    "description": "Tesamorelin is a synthetic 44-amino-acid analog of human growth-hormone-releasing hormone, GHRH(1-44)-NH2, with a trans-3-hexenoyl group on the N-terminal tyrosine. PubChem CID 16137828; formula C221H366N72O67S; molecular weight about 5136 g/mol. Research areas: GHRH receptor pharmacology and regulation of the growth-hormone axis. Supplied as a lyophilized powder for laboratory research use only. Not for human or veterinary use.",
+    "category": "Compounds",
+    "amount": 30.99,
+    "currency": "USD",
+    "size": "2mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-100.webp",
+     "altText": "Tesamorelin vial illustration",
+     "box": "/product-images/tesamorelin-box.webp",
+     "boxByDose": {
+      "bg-100-03": "/product-images/tesamorelin-10-mg-box.webp",
+      "bg-100-01": "/product-images/tesamorelin-2-mg-box.webp",
+      "bg-100-04": "/product-images/tesamorelin-20-mg-box.webp",
+      "bg-100-02": "/product-images/tesamorelin-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-100-01",
+      "sku": "MRX-TESA-2MG-BX10",
+      "title": "2mg · 10-vial kit",
+      "amount": 247.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-100-01"
+     },
+     {
+      "id": "bg-100-01-1v",
+      "sku": "MRX-TESA-2MG-1V",
+      "title": "2mg · 1 vial",
+      "amount": 30.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-100-01"
+     },
+     {
+      "id": "bg-100-02",
+      "sku": "MRX-TESA-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 295.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-100-02"
+     },
+     {
+      "id": "bg-100-02-1v",
+      "sku": "MRX-TESA-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 36.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-100-02"
+     },
+     {
+      "id": "bg-100-03",
+      "sku": "MRX-TESA-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 487.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-100-03"
+     },
+     {
+      "id": "bg-100-03-1v",
+      "sku": "MRX-TESA-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 60.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-100-03"
+     },
+     {
+      "id": "bg-100-04",
+      "sku": "MRX-TESA-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 809.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-100-04"
+     },
+     {
+      "id": "bg-100-04-1v",
+      "sku": "MRX-TESA-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 101.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-100-04"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "FD-2608240597",
+      "product": "Tesamorelin",
+      "productUrl": "/products/tesamorelin",
+      "dose": "10mg",
+      "testDate": "2026-08-27",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.93,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2608240597"
+     },
+     {
+      "lot": "TESA-061424-10",
+      "product": "Tesamorelin",
+      "productUrl": "/products/tesamorelin",
+      "dose": "10mg",
+      "testDate": "2026-07-20",
+      "lab": "SteriGenix",
+      "purity": 99.73,
+      "method": "HPLC / LC-MS",
+      "documentUrl": "/api/verify/document?lot=TESA-061424-10"
+     }
+    ]
+   },
+   {
+    "id": "bg-102",
+    "handle": "testagen",
+    "title": "Testagen",
+    "subtitle": "Testagen",
+    "description": "Testagen is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 75,
+    "currency": "USD",
+    "size": "20mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "clay",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-102.webp",
+     "altText": "Testagen vial illustration",
+     "box": "/product-images/testagen-box.webp",
+     "boxByDose": {
+      "bg-102-01": "/product-images/testagen-20-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-102-01",
+      "sku": "MRX-TESTAGEN-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 410,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-102-01"
+     },
+     {
+      "id": "bg-102-01-1v",
+      "sku": "MRX-TESTAGEN-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-102-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-103",
+    "handle": "thymalin",
+    "title": "Thymalin",
+    "subtitle": "Thymalin",
+    "description": "Thymalin is listed in our sourcing catalog with 1 option. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 60,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-103.webp",
+     "altText": "Thymalin vial illustration",
+     "box": "/product-images/thymalin-box.webp",
+     "boxByDose": {
+      "bg-103-01": "/product-images/thymalin-10-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-103-01",
+      "sku": "MRX-THYMALIN-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 250,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-103-01"
+     },
+     {
+      "id": "bg-103-01-1v",
+      "sku": "MRX-THYMALIN-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-103-01"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-104",
+    "handle": "thymosin-alpha-1",
+    "title": "Thymosin Alpha-1",
+    "subtitle": "Thymosin Alpha-1",
+    "description": "Thymosin Alpha-1 (thymalfasin) is a 28-amino-acid peptide with an N-terminal acetyl group, first isolated from calf thymus (thymosin fraction 5). Sequence Ac-SDAAVDTSSEITTKDLKEKKEVVEEAEN-OH; PubChem CID 16130571; formula C129H215N33O55; molecular weight 3108.3 g/mol. Research areas: T-cell biology and innate immune signaling in cell and animal models. Supplied as a lyophilized powder for laboratory research use only. Not for human or veterinary use.",
+    "category": "Compounds",
+    "amount": 32.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-104.webp",
+     "altText": "Thymosin Alpha-1 vial illustration",
+     "box": "/product-images/thymosin-alpha-1-box.webp",
+     "boxByDose": {
+      "bg-104-02": "/product-images/thymosin-alpha-1-10-mg-box.webp",
+      "bg-104-01": "/product-images/thymosin-alpha-1-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-104-01",
+      "sku": "MRX-TA1-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 263.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-104-01"
+     },
+     {
+      "id": "bg-104-01-1v",
+      "sku": "MRX-TA1-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 32.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-104-01"
+     },
+     {
+      "id": "bg-104-02",
+      "sku": "MRX-TA1-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 377.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-104-02"
+     },
+     {
+      "id": "bg-104-02-1v",
+      "sku": "MRX-TA1-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 46.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-104-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-105",
+    "handle": "tirzepatide",
+    "title": "Tirzepatide",
+    "subtitle": "Tirzepatide",
+    "description": "Tirzepatide is a synthetic 39-amino-acid peptide based on the GIP sequence with two aminoisobutyric acid (Aib) residues and a C20 fatty diacid attached through a linker to the lysine at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubChem CID 166567236; formula C225H348N48O68; molecular weight about 4813 g/mol. Research areas: incretin receptor pharmacology, glucose metabolism and energy metabolism in animal and cell models. Supplied as a lyophilized powder for laboratory research use only. Not for human or veterinary use.",
+    "category": "Compounds",
+    "amount": 18.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sage",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-105.webp",
+     "altText": "Tirzepatide vial illustration",
+     "box": "/product-images/tirzepatide-box.webp",
+     "boxByDose": {
+      "bg-105-02": "/product-images/tirzepatide-10-mg-box.webp",
+      "bg-105-13": "/product-images/tirzepatide-100-mg-box.webp",
+      "bg-105-14": "/product-images/tirzepatide-120-mg-box.webp",
+      "bg-105-03": "/product-images/tirzepatide-15-mg-box.webp",
+      "bg-105-04": "/product-images/tirzepatide-20-mg-box.webp",
+      "bg-105-05": "/product-images/tirzepatide-30-mg-box.webp",
+      "bg-105-06": "/product-images/tirzepatide-40-mg-box.webp",
+      "bg-105-07": "/product-images/tirzepatide-45-mg-box.webp",
+      "bg-105-01": "/product-images/tirzepatide-5-mg-box.webp",
+      "bg-105-08": "/product-images/tirzepatide-50-mg-box.webp",
+      "bg-105-09": "/product-images/tirzepatide-60-mg-box.webp",
+      "bg-105-10": "/product-images/tirzepatide-70-mg-box.webp",
+      "bg-105-11": "/product-images/tirzepatide-80-mg-box.webp",
+      "bg-105-12": "/product-images/tirzepatide-90-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-105-01",
+      "sku": "MRX-TIRZ-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 151.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-01"
+     },
+     {
+      "id": "bg-105-01-1v",
+      "sku": "MRX-TIRZ-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 18.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-01"
+     },
+     {
+      "id": "bg-105-02",
+      "sku": "MRX-TIRZ-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 167.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-02"
+     },
+     {
+      "id": "bg-105-02-1v",
+      "sku": "MRX-TIRZ-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 20.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-02"
+     },
+     {
+      "id": "bg-105-03",
+      "sku": "MRX-TIRZ-15MG-BX10",
+      "title": "15mg · 10-vial kit",
+      "amount": 183.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-03"
+     },
+     {
+      "id": "bg-105-03-1v",
+      "sku": "MRX-TIRZ-15MG-1V",
+      "title": "15mg · 1 vial",
+      "amount": 22.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-03"
+     },
+     {
+      "id": "bg-105-04",
+      "sku": "MRX-TIRZ-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 207.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-04"
+     },
+     {
+      "id": "bg-105-04-1v",
+      "sku": "MRX-TIRZ-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 25.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-04"
+     },
+     {
+      "id": "bg-105-05",
+      "sku": "MRX-TIRZ-30MG-BX10",
+      "title": "30mg · 10-vial kit",
+      "amount": 239.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-05"
+     },
+     {
+      "id": "bg-105-05-1v",
+      "sku": "MRX-TIRZ-30MG-1V",
+      "title": "30mg · 1 vial",
+      "amount": 29.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-05"
+     },
+     {
+      "id": "bg-105-06",
+      "sku": "MRX-TIRZ-40MG-BX10",
+      "title": "40mg · 10-vial kit",
+      "amount": 271.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-06"
+     },
+     {
+      "id": "bg-105-06-1v",
+      "sku": "MRX-TIRZ-40MG-1V",
+      "title": "40mg · 1 vial",
+      "amount": 33.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-06"
+     },
+     {
+      "id": "bg-105-07",
+      "sku": "MRX-TIRZ-45MG-BX10",
+      "title": "45mg · 10-vial kit",
+      "amount": 440,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-07"
+     },
+     {
+      "id": "bg-105-07-1v",
+      "sku": "MRX-TIRZ-45MG-1V",
+      "title": "45mg · 1 vial",
+      "amount": 80,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-07"
+     },
+     {
+      "id": "bg-105-08",
+      "sku": "MRX-TIRZ-50MG-BX10",
+      "title": "50mg · 10-vial kit",
+      "amount": 328.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-08"
+     },
+     {
+      "id": "bg-105-08-1v",
+      "sku": "MRX-TIRZ-50MG-1V",
+      "title": "50mg · 1 vial",
+      "amount": 40.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-08"
+     },
+     {
+      "id": "bg-105-09",
+      "sku": "MRX-TIRZ-60MG-BX10",
+      "title": "60mg · 10-vial kit",
+      "amount": 348.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-09"
+     },
+     {
+      "id": "bg-105-09-1v",
+      "sku": "MRX-TIRZ-60MG-1V",
+      "title": "60mg · 1 vial",
+      "amount": 42.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-09"
+     },
+     {
+      "id": "bg-105-10",
+      "sku": "MRX-TIRZ-70MG-BX10",
+      "title": "70mg · 10-vial kit",
+      "amount": 470,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-10"
+     },
+     {
+      "id": "bg-105-10-1v",
+      "sku": "MRX-TIRZ-70MG-1V",
+      "title": "70mg · 1 vial",
+      "amount": 80,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-10"
+     },
+     {
+      "id": "bg-105-11",
+      "sku": "MRX-TIRZ-80MG-BX10",
+      "title": "80mg · 10-vial kit",
+      "amount": 520,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-11"
+     },
+     {
+      "id": "bg-105-11-1v",
+      "sku": "MRX-TIRZ-80MG-1V",
+      "title": "80mg · 1 vial",
+      "amount": 85,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-11"
+     },
+     {
+      "id": "bg-105-12",
+      "sku": "MRX-TIRZ-90MG-BX10",
+      "title": "90mg · 10-vial kit",
+      "amount": 555,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-12"
+     },
+     {
+      "id": "bg-105-12-1v",
+      "sku": "MRX-TIRZ-90MG-1V",
+      "title": "90mg · 1 vial",
+      "amount": 90,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-12"
+     },
+     {
+      "id": "bg-105-13",
+      "sku": "MRX-TIRZ-100MG-BX10",
+      "title": "100mg · 10-vial kit",
+      "amount": 555,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-13"
+     },
+     {
+      "id": "bg-105-13-1v",
+      "sku": "MRX-TIRZ-100MG-1V",
+      "title": "100mg · 1 vial",
+      "amount": 90,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-13"
+     },
+     {
+      "id": "bg-105-14",
+      "sku": "MRX-TIRZ-120MG-BX10",
+      "title": "120mg · 10-vial kit",
+      "amount": 595,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-105-14"
+     },
+     {
+      "id": "bg-105-14-1v",
+      "sku": "MRX-TIRZ-120MG-1V",
+      "title": "120mg · 1 vial",
+      "amount": 95,
+      "currency": "USD",
+      "available": false,
+      "availabilityStatus": "unavailable",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-105-14"
+     }
+    ],
+    "documents": [
+     {
+      "lot": "FD-2609089107",
+      "product": "Tirzepatide",
+      "productUrl": "/products/tirzepatide",
+      "dose": "60mg",
+      "testDate": "2026-09-08",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.86,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2609089107"
+     },
+     {
+      "lot": "FD-2609020861",
+      "product": "Tirzepatide",
+      "productUrl": "/products/tirzepatide",
+      "dose": "20mg",
+      "testDate": "2026-09-05",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.95,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2609020861"
+     },
+     {
+      "lot": "FD-2608260176",
+      "product": "Tirzepatide",
+      "productUrl": "/products/tirzepatide",
+      "dose": "30mg",
+      "testDate": "2026-08-27",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.81,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2608260176"
+     },
+     {
+      "lot": "JAN-222916",
+      "product": "Tirzepatide",
+      "productUrl": "/products/tirzepatide",
+      "dose": "60mg",
+      "testDate": "2026-08-21",
+      "lab": "Janoshik Analytical",
+      "purity": 99.72,
+      "method": "HPLC / LC-MS (Janoshik)",
+      "documentUrl": "/api/verify/document?lot=JAN-222916"
+     },
+     {
+      "lot": "FD-2607060262",
+      "product": "Tirzepatide",
+      "productUrl": "/products/tirzepatide",
+      "dose": "20mg",
+      "testDate": "2026-07-08",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.75,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2607060262"
+     },
+     {
+      "lot": "FD-2607060261",
+      "product": "Tirzepatide",
+      "productUrl": "/products/tirzepatide",
+      "dose": "10mg",
+      "testDate": "2026-07-08",
+      "lab": "Freedom Diagnostics",
+      "purity": 99.8,
+      "method": "HPLC-UV / LC-MS",
+      "documentUrl": "/api/verify/document?lot=FD-2607060261"
+     }
+    ]
+   },
+   {
+    "id": "bg-107",
+    "handle": "vesugen",
+    "title": "Vesugen",
+    "subtitle": "Vesugen",
+    "description": "Vesugen is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 60,
+    "currency": "USD",
+    "size": "10mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "sand",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-107.webp",
+     "altText": "Vesugen vial illustration",
+     "box": "/product-images/vesugen-box.webp",
+     "boxByDose": {
+      "bg-107-01": "/product-images/vesugen-10-mg-box.webp",
+      "bg-107-02": "/product-images/vesugen-20-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-107-01",
+      "sku": "MRX-VESUGEN-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 275,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-107-01"
+     },
+     {
+      "id": "bg-107-01-1v",
+      "sku": "MRX-VESUGEN-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 60,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-107-01"
+     },
+     {
+      "id": "bg-107-02",
+      "sku": "MRX-VESUGEN-20MG-BX10",
+      "title": "20mg · 10-vial kit",
+      "amount": 390,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-107-02"
+     },
+     {
+      "id": "bg-107-02-1v",
+      "sku": "MRX-VESUGEN-20MG-1V",
+      "title": "20mg · 1 vial",
+      "amount": 75,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-107-02"
+     }
+    ],
+    "documents": []
+   },
+   {
+    "id": "bg-108",
+    "handle": "vip",
+    "title": "VIP",
+    "subtitle": "VIP",
+    "description": "VIP is listed in our sourcing catalog with 2 options. Strength and pack labels are preserved from the supplier comparison. Stock and lot documentation are not yet confirmed.",
+    "category": "Compounds",
+    "amount": 32.99,
+    "currency": "USD",
+    "size": "5mg · 1 vial",
+    "available": true,
+    "sample": false,
+    "draft": false,
+    "noindex": false,
+    "tone": "lavender",
+    "tag": "RESEARCH USE ONLY",
+    "image": {
+     "url": "/product-images/bg-108.webp",
+     "altText": "VIP vial illustration",
+     "box": "/product-images/vip-box.webp",
+     "boxByDose": {
+      "bg-108-02": "/product-images/vip-10-mg-box.webp",
+      "bg-108-01": "/product-images/vip-5-mg-box.webp"
+     }
+    },
+    "variants": [
+     {
+      "id": "bg-108-01",
+      "sku": "MRX-VIP-5MG-BX10",
+      "title": "5mg · 10-vial kit",
+      "amount": 263.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-108-01"
+     },
+     {
+      "id": "bg-108-01-1v",
+      "sku": "MRX-VIP-5MG-1V",
+      "title": "5mg · 1 vial",
+      "amount": 32.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-108-01"
+     },
+     {
+      "id": "bg-108-02",
+      "sku": "MRX-VIP-10MG-BX10",
+      "title": "10mg · 10-vial kit",
+      "amount": 358.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "kit",
+      "vials": 10,
+      "dose": "bg-108-02"
+     },
+     {
+      "id": "bg-108-02-1v",
+      "sku": "MRX-VIP-10MG-1V",
+      "title": "10mg · 1 vial",
+      "amount": 43.99,
+      "currency": "USD",
+      "available": true,
+      "availabilityStatus": "in_stock",
+      "stockBand": "ok",
+      "pack": "single",
+      "vials": 1,
+      "dose": "bg-108-02"
+     }
+    ],
+    "documents": []
+   }
+  ],
+  "bundles": [
+   {
+    "id": "bpc-157-tb-500",
+    "title": "BPC-157 + TB-500 components",
+    "description": "One BPC-157 5mg kit and one TB-500 5mg kit, each in its own labelled vials.",
+    "basis": "The two compounds in the BPC-157 + TB-500 blend, as separate kits.",
+    "percentOff": 10,
+    "listAmount": 479.98,
+    "amount": 431.98,
+    "currency": "USD",
+    "available": true,
+    "components": [
+     {
+      "variantId": "bg-014-01",
+      "quantity": 1,
+      "productTitle": "BPC-157",
+      "handle": "bpc-157",
+      "variantTitle": "5mg · 10-vial kit",
+      "unitAmount": 223.99,
+      "image": {
+       "url": "/product-images/bg-014.webp",
+       "altText": "BPC-157 vial illustration",
+       "box": "/product-images/bpc-157-box.webp",
+       "boxByDose": {
+        "bg-014-02": "/product-images/bpc-157-10-mg-box.webp",
+        "bg-014-03": "/product-images/bpc-157-20-mg-box.webp",
+        "bg-014-01": "/product-images/bpc-157-5-mg-box.webp"
+       }
+      }
+     },
+     {
+      "variantId": "bg-097-01",
+      "quantity": 1,
+      "productTitle": "TB-500",
+      "handle": "tb-500",
+      "variantTitle": "5mg · 10-vial kit",
+      "unitAmount": 255.99,
+      "image": {
+       "url": "/product-images/bg-097.webp",
+       "altText": "TB-500 vial illustration",
+       "box": "/product-images/tb-500-box.webp",
+       "boxByDose": {
+        "bg-097-02": "/product-images/tb-500-10-mg-box.webp",
+        "bg-097-01": "/product-images/tb-500-5-mg-box.webp"
+       }
+      }
+     }
+    ]
+   },
+   {
+    "id": "ghk-cu-kpv",
+    "title": "GHK-CU + KPV components",
+    "description": "One GHK-CU 50mg kit and one KPV 10mg kit, each in its own labelled vials.",
+    "basis": "The two compounds in the KPV + GHK-CU blend, as separate kits.",
+    "percentOff": 10,
+    "listAmount": 487.98,
+    "amount": 439.18,
+    "currency": "USD",
+    "available": true,
+    "components": [
+     {
+      "variantId": "bg-036-01",
+      "quantity": 1,
+      "productTitle": "GHK-CU",
+      "handle": "ghk-cu",
+      "variantTitle": "50mg · 10-vial kit",
+      "unitAmount": 207.99,
+      "image": {
+       "url": "/product-images/bg-036.webp",
+       "altText": "GHK-CU vial illustration",
+       "box": "/product-images/ghk-cu-box.webp",
+       "boxByDose": {
+        "bg-036-02": "/product-images/ghk-cu-100-mg-box.webp",
+        "bg-036-01": "/product-images/ghk-cu-50-mg-box.webp"
+       }
+      }
+     },
+     {
+      "variantId": "bg-055-02",
+      "quantity": 1,
+      "productTitle": "KPV",
+      "handle": "kpv",
+      "variantTitle": "10mg · 10-vial kit",
+      "unitAmount": 279.99,
+      "image": {
+       "url": "/product-images/bg-055.webp",
+       "altText": "KPV vial illustration",
+       "box": "/product-images/kpv-box.webp",
+       "boxByDose": {
+        "bg-055-02": "/product-images/kpv-10-mg-box.webp",
+        "bg-055-01": "/product-images/kpv-5-mg-box.webp"
+       }
+      }
+     }
+    ]
+   },
+   {
+    "id": "selank-semax",
+    "title": "Selank + Semax components",
+    "description": "One Selank 10mg kit and one Semax 10mg kit, each in its own labelled vials.",
+    "basis": "The two compounds in the Selank + Semax blend, as separate kits.",
+    "percentOff": 10,
+    "listAmount": 439.98,
+    "amount": 395.98,
+    "currency": "USD",
+    "available": true,
+    "components": [
+     {
+      "variantId": "bg-087-02",
+      "quantity": 1,
+      "productTitle": "Selank",
+      "handle": "selank",
+      "variantTitle": "10mg · 10-vial kit",
+      "unitAmount": 247.99,
+      "image": {
+       "url": "/product-images/bg-087.webp",
+       "altText": "Selank vial illustration",
+       "box": "/product-images/selank-box.webp",
+       "boxByDose": {
+        "bg-087-02": "/product-images/selank-10-mg-box.webp",
+        "bg-087-01": "/product-images/selank-5-mg-box.webp"
+       }
+      }
+     },
+     {
+      "variantId": "bg-090-02",
+      "quantity": 1,
+      "productTitle": "Semax",
+      "handle": "semax",
+      "variantTitle": "10mg · 10-vial kit",
+      "unitAmount": 191.99,
+      "image": {
+       "url": "/product-images/bg-090.webp",
+       "altText": "Semax vial illustration",
+       "box": "/product-images/semax-box.webp",
+       "boxByDose": {
+        "bg-090-02": "/product-images/semax-10-mg-box.webp",
+        "bg-090-01": "/product-images/semax-5-mg-box.webp"
+       }
+      }
+     }
+    ]
+   },
+   {
+    "id": "cjc-1295-ipamorelin",
+    "title": "CJC-1295 (No DAC) + Ipamorelin components",
+    "description": "One CJC-1295 (No DAC) 5mg kit and one Ipamorelin 5mg kit, each in its own labelled vials.",
+    "basis": "The two compounds in the CJC-1295 (No DAC) + Ipamorelin blend, as separate kits.",
+    "percentOff": 10,
+    "listAmount": 463.98,
+    "amount": 417.58,
+    "currency": "USD",
+    "available": true,
+    "components": [
+     {
+      "variantId": "bg-022-02",
+      "quantity": 1,
+      "productTitle": "CJC-1295 (No DAC)",
+      "handle": "cjc-1295-no-dac",
+      "variantTitle": "5mg · 10-vial kit",
+      "unitAmount": 279.99,
+      "image": {
+       "url": "/product-images/bg-022.webp",
+       "altText": "CJC-1295 (No DAC) vial illustration",
+       "box": "/product-images/cjc-1295-no-dac-box.webp",
+       "boxByDose": {
+        "bg-022-03": "/product-images/cjc-1295-no-dac-10-mg-box.webp",
+        "bg-022-01": "/product-images/cjc-1295-no-dac-2-mg-box.webp",
+        "bg-022-02": "/product-images/cjc-1295-no-dac-5-mg-box.webp"
+       }
+      }
+     },
+     {
+      "variantId": "bg-052-01",
+      "quantity": 1,
+      "productTitle": "Ipamorelin",
+      "handle": "ipamorelin",
+      "variantTitle": "5mg · 10-vial kit",
+      "unitAmount": 183.99,
+      "image": {
+       "url": "/product-images/bg-052.webp",
+       "altText": "Ipamorelin vial illustration",
+       "box": "/product-images/ipamorelin-box.webp",
+       "boxByDose": {
+        "bg-052-02": "/product-images/ipamorelin-10-mg-box.webp",
+        "bg-052-01": "/product-images/ipamorelin-5-mg-box.webp"
+       }
+      }
+     }
+    ]
+   }
+  ],
+  "pricing": {
+   "updated": "2026-10-11",
+   "approvedBy": "owner (Connor O'Dea), 2026-10-10; single-vial curve (DEC-0008) 2026-10-11",
+   "allowStacking": false,
+   "stackingRule": "A unit receives one discount only. When a unit qualifies for more than one of the bundle, reorder and quantity discounts, the largest percentage applies (on a tie: bundle, then reorder, then quantity). Set allowStacking to true to apply bundle and reorder in sequence; the quantity discount never stacks, and it applies instead when it gives the lower price.",
+   "quantity": {
+    "enabled": true,
+    "rule": "Buying more units of the same option (same product, dose and pack) lowers the unit price of every unit of that option in the bag. The tier is chosen by the total units of that option in the bag: the highest tier whose minUnits is reached applies. Units of other options do not count toward the tier. Checkout calculates the tier price on the server.",
+    "tiers": [
+     {
+      "minUnits": 2,
+      "percentOff": 5
+     },
+     {
+      "minUnits": 3,
+      "percentOff": 10
+     },
+     {
+      "minUnits": 5,
+      "percentOff": 15
+     }
+    ]
+   },
+   "singleVialCurve": {
+    "enabled": true,
+    "decision": "DEC-0008 (2026-10-11)",
+    "rule": "A single vial (an option sold as 1 vial) uses this curve instead of the quantity tiers. The percent off every vial of that option in the bag rises with the number of vials: 1 vial 0%, 2 vials 2%, up to 9 vials at 11%, so 9 vials cost about the same as the kit of 10. At convertToKitAt vials (10) the line becomes one kit of 10 at the kit price; the kit's quantity tiers then apply to the kits. Vials left over after each full kit stay single vials priced by the curve. The bag, the shop tile, the product page and checkout run the same conversion, so the shown price is the charged price. Becoming a kit needs kit stock. One discount per unit; the larger one applies.",
+    "percentOff": {
+     "1": 0,
+     "2": 2,
+     "3": 4,
+     "4": 5,
+     "5": 6,
+     "6": 8,
+     "7": 9,
+     "8": 10,
+     "9": 11
+    },
+    "convertToKitAt": 10
+   },
+   "reorder": {
+    "enabled": true,
+    "percentOff": 10,
+    "maxAgeDays": 365,
+    "rule": "A returning customer who opens a paid order (receipt link) can reorder. Units of any variant that appears in that paid order get percentOff off the unit price at checkout. The original order must be paid and no older than maxAgeDays. Other items in the bag pay the listed price."
+   },
+   "bundles": {
+    "enabled": true,
+    "percentOff": 10,
+    "rule": "A bundle is a set of separately listed single-compound kits. Its price is the sum of the component list prices with percentOff off each unit. The bundle price applies only while the bag holds every component in the bundle quantity. A bundle is hidden when any component is not sellable.",
+    "items": [
+     {
+      "id": "bpc-157-tb-500",
+      "title": "BPC-157 + TB-500 components",
+      "basis": "The two compounds in the BPC-157 + TB-500 blend, as separate kits.",
+      "description": "One BPC-157 5mg kit and one TB-500 5mg kit, each in its own labelled vials.",
+      "components": [
+       {
+        "variantId": "bg-014-01",
+        "quantity": 1
+       },
+       {
+        "variantId": "bg-097-01",
+        "quantity": 1
+       }
+      ]
+     },
+     {
+      "id": "ghk-cu-kpv",
+      "title": "GHK-CU + KPV components",
+      "basis": "The two compounds in the KPV + GHK-CU blend, as separate kits.",
+      "description": "One GHK-CU 50mg kit and one KPV 10mg kit, each in its own labelled vials.",
+      "components": [
+       {
+        "variantId": "bg-036-01",
+        "quantity": 1
+       },
+       {
+        "variantId": "bg-055-02",
+        "quantity": 1
+       }
+      ]
+     },
+     {
+      "id": "selank-semax",
+      "title": "Selank + Semax components",
+      "basis": "The two compounds in the Selank + Semax blend, as separate kits.",
+      "description": "One Selank 10mg kit and one Semax 10mg kit, each in its own labelled vials.",
+      "components": [
+       {
+        "variantId": "bg-087-02",
+        "quantity": 1
+       },
+       {
+        "variantId": "bg-090-02",
+        "quantity": 1
+       }
+      ]
+     },
+     {
+      "id": "cjc-1295-ipamorelin",
+      "title": "CJC-1295 (No DAC) + Ipamorelin components",
+      "basis": "The two compounds in the CJC-1295 (No DAC) + Ipamorelin blend, as separate kits.",
+      "description": "One CJC-1295 (No DAC) 5mg kit and one Ipamorelin 5mg kit, each in its own labelled vials.",
+      "components": [
+       {
+        "variantId": "bg-022-02",
+        "quantity": 1
+       },
+       {
+        "variantId": "bg-052-01",
+        "quantity": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "shop": {
+   "name": "MedicalRxLab",
+   "policies": []
+  }
+ }
+}

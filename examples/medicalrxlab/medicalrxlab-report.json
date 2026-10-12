@@ -1,0 +1,1874 @@
+{
+  "total": 294,
+  "rejection_rate": 0.0,
+  "by_code": {
+    "F084": 23
+  },
+  "connector": "medicalrxlab",
+  "provenance": {
+    "source": "medicalrxlab",
+    "endpoint": "https://medicalrxlab.com/api/catalog",
+    "fetched_at": "2026-10-12T23:25:17.239350+00:00",
+    "sha256": "0802caec977b8cf0fb37b761d73baf0aefc9eb17f56ab50459ab633b3c54f3b0"
+  },
+  "skipped": [],
+  "notes": [
+    "bg-007: placeholder description on site, replaced by field-derived text",
+    "bg-008: placeholder description on site, replaced by field-derived text",
+    "bg-011: placeholder description on site, replaced by field-derived text",
+    "bg-012: placeholder description on site, replaced by field-derived text",
+    "bg-014: placeholder description on site, replaced by field-derived text",
+    "bg-015: placeholder description on site, replaced by field-derived text",
+    "bg-018: placeholder description on site, replaced by field-derived text",
+    "bg-019: placeholder description on site, replaced by field-derived text",
+    "bg-021: placeholder description on site, replaced by field-derived text",
+    "bg-022: placeholder description on site, replaced by field-derived text",
+    "bg-023: placeholder description on site, replaced by field-derived text",
+    "bg-024: placeholder description on site, replaced by field-derived text",
+    "bg-025: placeholder description on site, replaced by field-derived text",
+    "bg-028: placeholder description on site, replaced by field-derived text",
+    "bg-031: placeholder description on site, replaced by field-derived text",
+    "bg-034: placeholder description on site, replaced by field-derived text",
+    "bg-036: placeholder description on site, replaced by field-derived text",
+    "bg-037: placeholder description on site, replaced by field-derived text",
+    "bg-038: placeholder description on site, replaced by field-derived text",
+    "bg-039: placeholder description on site, replaced by field-derived text",
+    "bg-040: placeholder description on site, replaced by field-derived text",
+    "bg-041: placeholder description on site, replaced by field-derived text",
+    "bg-044: placeholder description on site, replaced by field-derived text",
+    "bg-046: placeholder description on site, replaced by field-derived text",
+    "bg-048: placeholder description on site, replaced by field-derived text",
+    "bg-052: placeholder description on site, replaced by field-derived text",
+    "bg-053: placeholder description on site, replaced by field-derived text",
+    "bg-054: placeholder description on site, replaced by field-derived text",
+    "bg-055: placeholder description on site, replaced by field-derived text",
+    "bg-056: placeholder description on site, replaced by field-derived text",
+    "bg-060: dropped sentence 'Lipo-C (LC120) is a multi-ingredient injectable formulation.'",
+    "bg-062: placeholder description on site, replaced by field-derived text",
+    "bg-063: placeholder description on site, replaced by field-derived text",
+    "bg-068: placeholder description on site, replaced by field-derived text",
+    "bg-069: placeholder description on site, replaced by field-derived text",
+    "bg-070: placeholder description on site, replaced by field-derived text",
+    "bg-071: placeholder description on site, replaced by field-derived text",
+    "bg-074: placeholder description on site, replaced by field-derived text",
+    "bg-076: placeholder description on site, replaced by field-derived text",
+    "bg-077: placeholder description on site, replaced by field-derived text",
+    "bg-078: placeholder description on site, replaced by field-derived text",
+    "bg-079: placeholder description on site, replaced by field-derived text",
+    "bg-080: placeholder description on site, replaced by field-derived text",
+    "bg-082: placeholder description on site, replaced by field-derived text",
+    "bg-087: placeholder description on site, replaced by field-derived text",
+    "bg-088: placeholder description on site, replaced by field-derived text",
+    "bg-090: placeholder description on site, replaced by field-derived text",
+    "bg-093: placeholder description on site, replaced by field-derived text",
+    "bg-097: placeholder description on site, replaced by field-derived text",
+    "bg-102: placeholder description on site, replaced by field-derived text",
+    "bg-103: placeholder description on site, replaced by field-derived text",
+    "bg-107: placeholder description on site, replaced by field-derived text",
+    "bg-108: placeholder description on site, replaced by field-derived text"
+  ],
+  "policy": {
+    "total_warnings": 272,
+    "flagged_items": 78,
+    "by_code": {
+      "P003": 272
+    },
+    "issues": [
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-10IU-BX10",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH 10 IU – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-10IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH is recombinant human growth hormone (so…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-10IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'human growth hormone' — HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-10IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'somatropin' — …GH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-10IU-1V",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH 10 IU – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-10IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH is recombinant human growth hormone (so…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-10IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'human growth hormone' — HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-10IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'somatropin' — …GH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-12IU-BX10",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH 12iu – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-12IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH is recombinant human growth hormone (so…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-12IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'human growth hormone' — HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-12IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'somatropin' — …GH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-12IU-1V",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH 12iu – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-12IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH is recombinant human growth hormone (so…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-12IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'human growth hormone' — HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-12IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'somatropin' — …GH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-15IU-BX10",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH 15 IU – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-15IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH is recombinant human growth hormone (so…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-15IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'human growth hormone' — HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-15IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'somatropin' — …GH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-15IU-1V",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH 15 IU – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-15IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH is recombinant human growth hormone (so…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-15IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'human growth hormone' — HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-15IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'somatropin' — …GH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-20IU-BX10",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH 20iu – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-20IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH is recombinant human growth hormone (so…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-20IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'human growth hormone' — HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-20IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'somatropin' — …GH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-20IU-1V",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH 20iu – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-20IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH is recombinant human growth hormone (so…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-20IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'human growth hormone' — HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-20IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'somatropin' — …GH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-24IU-BX10",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH 24 IU – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-24IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH is recombinant human growth hormone (so…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-24IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'human growth hormone' — HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-24IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'somatropin' — …GH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-24IU-1V",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH 24 IU – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-24IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH is recombinant human growth hormone (so…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-24IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'human growth hormone' — HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-24IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'somatropin' — …GH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-36IU-BX10",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH 36 IU – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-36IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH is recombinant human growth hormone (so…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-36IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'human growth hormone' — HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-36IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'somatropin' — …GH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-36IU-1V",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH 36 IU – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-36IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH is recombinant human growth hormone (so…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-36IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'human growth hormone' — HGH is recombinant human growth hormone (somatropin), a single-chain 191-amino-…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HGH-36IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'somatropin' — …GH is recombinant human growth hormone (somatropin), a single-chain 191-amino-acid protein…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-FRAG176-5MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH Fragment 176-191 5mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-FRAG176-5MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH Fragment 176-191: research peptide for …",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-FRAG176-5MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'HGH' — HGH Fragment 176-191 5mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-FRAG176-5MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'HGH' — HGH Fragment 176-191: research peptide for …",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HMG-75IU-BX10",
+        "message": "Regulated/prescription drug reference in title: 'HMG' — HMG 75 IU – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HMG-75IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'HMG' — HMG is human menopausal gonadotropin, a pre…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HMG-75IU-BX10",
+        "message": "Regulated/prescription drug reference in description: 'gonadotropin' — HMG is human menopausal gonadotropin, a preparation of the glycoprotein horm…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HMG-75IU-1V",
+        "message": "Regulated/prescription drug reference in title: 'HMG' — HMG 75 IU – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HMG-75IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'HMG' — HMG is human menopausal gonadotropin, a pre…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-HMG-75IU-1V",
+        "message": "Regulated/prescription drug reference in description: 'gonadotropin' — HMG is human menopausal gonadotropin, a preparation of the glycoprotein horm…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-IGF1LR3-100MCG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'insulin' — …-amino-acid recombinant analog of human insulin-like growth factor 1. It has an arginin…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-IGF1LR3-100MCG-1V",
+        "message": "Regulated/prescription drug reference in description: 'insulin' — …-amino-acid recombinant analog of human insulin-like growth factor 1. It has an arginin…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-IGF1LR3-1MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'insulin' — …-amino-acid recombinant analog of human insulin-like growth factor 1. It has an arginin…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-IGF1LR3-1MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'insulin' — …-amino-acid recombinant analog of human insulin-like growth factor 1. It has an arginin…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-5MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 5mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-5MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-5MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-5MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-5MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-5MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 5mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-5MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-5MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-5MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-5MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-10MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 10mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-10MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-10MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-10MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-10MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-10MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 10mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-10MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-10MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-10MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-10MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-15MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 15mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-15MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-15MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-15MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-15MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-15MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 15mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-15MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-15MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-15MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-15MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-20MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 20mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-20MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-20MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-20MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-20MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-20MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 20mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-20MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-20MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-20MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-20MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-24MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 24mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-24MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-24MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-24MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-24MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-24MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 24mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-24MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-24MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-24MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-24MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-30MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 30mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-30MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-30MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-30MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-30MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-30MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 30mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-30MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-30MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-30MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-30MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-36MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 36mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-36MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-36MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-36MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-36MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-36MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 36mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-36MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-36MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-36MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-36MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-40MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 40mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-40MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-40MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-40MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-40MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-40MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 40mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-40MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-40MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-40MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-40MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-50MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 50mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-50MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-50MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-50MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-50MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-50MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 50mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-50MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-50MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-50MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-50MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-60MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 60mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-60MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-60MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-60MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-60MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-60MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 60mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-60MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-60MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-60MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-60MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-100MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 100mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-100MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-100MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-100MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-100MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-100MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Retatrutide' — Retatrutide 100mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-100MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Retatrutide' — Retatrutide (LY3437943) is a synthetic peptide deve…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-100MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …eloped by Eli Lilly that binds the GIP, GLP-1 and glucagon receptors (a triple recept…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-100MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'investigational compound' — …ide chain for albumin binding. It is an investigational compound and is not approved by the FDA. Researc…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-RETA-100MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'not approved by the FDA' — …t is an investigational compound and is not approved by the FDA. Research areas: incretin receptor phar…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-2MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tesamorelin' — Tesamorelin 2mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-2MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tesamorelin' — Tesamorelin is a synthetic 44-amino-acid analog of …",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-2MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tesamorelin' — Tesamorelin 2mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-2MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tesamorelin' — Tesamorelin is a synthetic 44-amino-acid analog of …",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-5MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tesamorelin' — Tesamorelin 5mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-5MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tesamorelin' — Tesamorelin is a synthetic 44-amino-acid analog of …",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-5MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tesamorelin' — Tesamorelin 5mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-5MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tesamorelin' — Tesamorelin is a synthetic 44-amino-acid analog of …",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-10MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tesamorelin' — Tesamorelin 10mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-10MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tesamorelin' — Tesamorelin is a synthetic 44-amino-acid analog of …",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-10MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tesamorelin' — Tesamorelin 10mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-10MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tesamorelin' — Tesamorelin is a synthetic 44-amino-acid analog of …",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-20MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tesamorelin' — Tesamorelin 20mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-20MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tesamorelin' — Tesamorelin is a synthetic 44-amino-acid analog of …",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-20MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tesamorelin' — Tesamorelin 20mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TESA-20MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tesamorelin' — Tesamorelin is a synthetic 44-amino-acid analog of …",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-5MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 5mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-5MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-5MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-5MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 5mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-5MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-5MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-10MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 10mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-10MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-10MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-10MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 10mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-10MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-10MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-15MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 15mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-15MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-15MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-15MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 15mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-15MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-15MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-20MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 20mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-20MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-20MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-20MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 20mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-20MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-20MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-30MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 30mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-30MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-30MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-30MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 30mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-30MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-30MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-40MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 40mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-40MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-40MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-40MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 40mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-40MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-40MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-45MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 45mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-45MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-45MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-45MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 45mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-45MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-45MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-50MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 50mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-50MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-50MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-50MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 50mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-50MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-50MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-60MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 60mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-60MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-60MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-60MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 60mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-60MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-60MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-70MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 70mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-70MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-70MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-70MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 70mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-70MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-70MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-80MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 80mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-80MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-80MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-80MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 80mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-80MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-80MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-90MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 90mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-90MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-90MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-90MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 90mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-90MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-90MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-100MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 100mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-100MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-100MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-100MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 100mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-100MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-100MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-120MG-BX10",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 120mg – Box of 10",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-120MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-120MG-BX10",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-120MG-1V",
+        "message": "Regulated/prescription drug reference in title: 'Tirzepatide' — Tirzepatide 120mg – Single vial",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-120MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'Tirzepatide' — Tirzepatide is a synthetic 39-amino-acid peptide ba…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      },
+      {
+        "code": "P003",
+        "offer_id": "MRX-TIRZ-120MG-1V",
+        "message": "Regulated/prescription drug reference in description: 'GLP-1' — …ne at position 20. It binds the GIP and GLP-1 receptors (dual receptor agonist). PubC…",
+        "fix": "Expect Healthcare & medicines policy review; consider certification or excluding the item from Shopping ads"
+      }
+    ]
+  },
+  "issues": [
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "ARA290",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "CARDIOGEN",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "CHONLUTEN",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "CORTAGEN",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "FOXO4",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "GHKKPVBPC",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "FRAG176",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "HMG",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "HUMANIN",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "KLOW",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "KPVGHK",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "LC120",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "MATRIXYL",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "MGF",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "NASELANK",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "OVAGEN",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "PANCRAGEN",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "PEGMGF",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "PROSTAMAX",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "SELANKSEMAX",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "SNAP8",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "TESTAGEN",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    },
+    {
+      "code": "F084",
+      "severity": "info",
+      "offer_id": "THYMALIN",
+      "message": "Все 2 вариантов группы используют одну картинку",
+      "fix": "У цветовых вариантов картинки должны различаться"
+    }
+  ]
+}

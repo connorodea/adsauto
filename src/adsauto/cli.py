@@ -2,6 +2,8 @@
 
   python -m adsauto.cli feed --site https://www.estaca.com.ua --prefix estaca
   python -m adsauto.cli feed --site ... --prefix ... --out feeds/estaca.xml --json report.json
+  python -m adsauto.cli feed --site https://medicalrxlab.com --connector medicalrxlab \
+      --prefix medicalrxlab --out feeds/medicalrxlab.xml --json feeds/medicalrxlab-report.json
 """
 
 from __future__ import annotations
@@ -13,8 +15,15 @@ import sys
 from pathlib import Path
 
 from .feed import build as feed_build
+from .feed import policy as feed_policy
 from .feed.validate import validate
+from .sources.medicalrxlab import MedicalRxLabExtractor
 from .sources.woo import WooExtractor
+
+CONNECTORS = {
+    "woocommerce": WooExtractor,
+    "medicalrxlab": MedicalRxLabExtractor,
+}
 
 # Соответствие категорий магазина таксономии Google.
 # Заполняется под клиента; без него Google угадывает категорию сам.
@@ -40,7 +49,7 @@ def apply_category_map(products, mapping: dict[str, str]) -> int:
 
 
 def cmd_feed(args: argparse.Namespace) -> int:
-    extractor = WooExtractor(args.site, offer_prefix=args.prefix)
+    extractor = CONNECTORS[args.connector](args.site, offer_prefix=args.prefix)
     products = extractor.run()
     if not products:
         print("Каталог пуст — проверьте, открыт ли Store API", file=sys.stderr)
@@ -49,14 +58,38 @@ def cmd_feed(args: argparse.Namespace) -> int:
     mapped = apply_category_map(products, GOOGLE_CATEGORY_MAP)
     feed_build.apply_identifier_policy(products)
     report = validate(products)
+    policy = feed_policy.check(products)
 
     out = Path(args.out)
     feed_build.write(products, out, title=args.title or args.prefix, link=args.site)
 
+    # Every row cites its raw response: connectors that keep the whole
+    # payload write it next to the feed with its sha256 and fetch time.
+    raw_path = None
+    provenance = None
+    if hasattr(extractor, "save_raw"):
+        raw_path = extractor.save_raw(out.with_name(f"{out.stem}-raw.json"))
+        provenance = extractor.provenance()
+    skipped = getattr(extractor, "skipped", [])
+
     print(f"Фид: {out}")
-    print(f"Категории Google проставлены: {mapped} из {len(products)}")
+    if raw_path:
+        print(f"Raw response: {raw_path} (sha256 {provenance['sha256'][:12]})")
+    with_category = sum(1 for p in products if p.google_product_category)
+    print(f"Категории Google проставлены: {with_category} из {len(products)} (по карте: {mapped})")
+    if skipped:
+        print(f"Skipped by connector: {len(skipped)}")
+    notes = getattr(extractor, "notes", [])
+    if notes:
+        print(f"Connector notes: {len(notes)} (see report JSON)")
     print()
     print(report.summary())
+    print()
+    print(policy.summary())
+    if policy.issues:
+        print("\nPolicy warnings (first few):")
+        for issue in policy.issues[: args.limit]:
+            print(f"  {issue}")
 
     if report.errors:
         print("\nОшибки, из-за которых товары будут отклонены:")
@@ -74,6 +107,24 @@ def cmd_feed(args: argparse.Namespace) -> int:
                     "total": report.total,
                     "rejection_rate": report.rejection_rate,
                     "by_code": report.by_code(),
+                    "connector": args.connector,
+                    "provenance": provenance,
+                    "skipped": skipped,
+                    "notes": notes,
+                    "policy": {
+                        "total_warnings": len(policy.issues),
+                        "flagged_items": len(policy.flagged_offer_ids),
+                        "by_code": policy.by_code(),
+                        "issues": [
+                            {
+                                "code": i.code,
+                                "offer_id": i.offer_id,
+                                "message": i.message,
+                                "fix": i.fix,
+                            }
+                            for i in policy.issues
+                        ],
+                    },
                     "issues": [
                         {
                             "code": i.code,
@@ -103,6 +154,10 @@ def main(argv: list[str] | None = None) -> int:
     feed = sub.add_parser("feed", help="собрать и проверить товарный фид")
     feed.add_argument("--site", required=True, help="https://example.com")
     feed.add_argument("--prefix", required=True, help="префикс идентификаторов, напр. estaca")
+    feed.add_argument(
+        "--connector", choices=sorted(CONNECTORS), default="woocommerce",
+        help="источник каталога (default: woocommerce)",
+    )
     feed.add_argument("--out", default="feeds/feed.xml")
     feed.add_argument("--title", default=None)
     feed.add_argument("--json", default=None, help="куда сохранить отчёт валидатора")
